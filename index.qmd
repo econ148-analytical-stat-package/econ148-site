@@ -1,0 +1,28 @@
+---
+title: "Econ 148: Analytical and statistical packages for economist 1"
+---
+
+<br>
+
+**Class schedule:** TBA <br>
+**Laboratory schedule:** TBA <br>
+**Instructor:** Christopher Llones <br>
+**e-mail:** christopher.allones\@gmail.com <br> **Pre-requisites:** Econ 115 - Econometrics <br> **Course credits:** 3 units <br>
+**Number of hours:** 2 hrs lectures and 3 hrs laboratory per week <br>
+
+# Course description
+
+::: {.callout-note appearance="minimal"}
+Introduction to survey research and survey data analysis in MS Excel, IBM SPSS, Stata and R.
+:::
+
+# Course objectives
+
+::: {.callout-note appearance="minimal"}
+-   Create a valid and reliable survey questionnaire and survey codebook.
+-   Perform exploratory data analysis on survey data using R programming.
+-   Perform Parametric and Non-Parametric Test on Means using SPSS.
+-   Perform correlation analysis and build a regression model explaining relationship of certain economic variables in STATA.
+-   Perform regression analysis on limited dependent variables in STATA.
+-   Perform various techniques of multivariate data analysis in the R statistical software.
+:::

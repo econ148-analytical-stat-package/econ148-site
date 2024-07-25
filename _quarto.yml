@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Econ 148"
+  favicon: "plot/econ148-hex-logo.png"
+  
+  repo-url: https://github.com/seminar-academic-writing/class-2024
+  site-url: https://seminar-academic-writing.github.io/class-2024/
+  
+  sidebar:
+    style: docked
+    pinned: true
+    seacrh: true
+    logo: "plot/econ148-hex-logo.png"
+    contents:
+      - href: "01-course-outline.qmd"
+        text: "Course Outline"
+      - section: "Topics"
+        contents:
+          - href: "02-m1-survey-research-design.qmd"
+            text: "Module 1: survey research design"
+          - href: "03-m2-exploratory-data-analysis.qmd"
+            text: "Module 2: exploratory data analysis"
+          - href: "04-m3-test-means.qmd"
+            text: "Module 3: test on means"
+          - href: "05-m4-corr-reg-analysis.qmd"
+            text: "Module 4: correlation and regression analysis"
+          - href: "06-m5-limdep-model.qmd"
+            text: "Module 5: limited-dependent variable models"
+          - href: "07-m6-multivariate-analysis.qmd"
+            text: "Module 6: Multivariate statistical analysis"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

@@ -1,0 +1,19 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Econ 148: Analytical and statistical packages for economist 1",
+    "section": "",
+    "text": "Class schedule: TBA  Laboratory schedule: TBA  Instructor: Christopher Llones  e-mail: christopher.allones@gmail.com  Pre-requisites: Econ 115 - Econometrics  Course credits: 3 units  Number of hours: 2 hrs lectures and 3 hrs laboratory per week \n\nCourse description\n\n\n\n\n\n\nIntroduction to survey research and survey data analysis in MS Excel, IBM SPSS, Stata and R.\n\n\n\n\n\nCourse objectives\n\n\n\n\n\n\n\nCreate a valid and reliable survey questionnaire and survey codebook.\nPerform exploratory data analysis on survey data using R programming.\nPerform Parametric and Non-Parametric Test on Means using SPSS.\nPerform correlation analysis and build a regression model explaining relationship of certain economic variables in STATA.\nPerform regression analysis on limited dependent variables in STATA.\nPerform various techniques of multivariate data analysis in the R statistical software."
+  },
+  {
+    "objectID": "01-course-outline.html",
+    "href": "01-course-outline.html",
+    "title": "Course outline",
+    "section": "",
+    "text": "Week\nTopics\nLessons\nActivities\n\n\n\n\nWeek 1-2\nFoundation of academic writing\n\nOverview of academic writing genres and their purposes.\nDiscussion of the key principles of academic writing.\nIntroduction to the structure of academic papers.\n\n\n\n\nWeek 3-4\nDeveloping research methods\n\nFormulating research topics and research questions.\nIdentifying relevant literature and conducting a literature review.\nDeveloping a thesis statement and creating an outline for a research paper.\n\n\n\n\nWeek 5-6\nWriting first darf\n\nWriting effective introductions and conclusions.\nCrafting clear and concise methods and results section.\nWriting persuasive literature and discussions.\nUsing appropriate language and tone in academic writing.\n\n\n\n\nWeek 7-8\nRevising and editing\n\nStrategies for revising and editing academic writing.\nPeer review and feedback exercises.\nUsing tools and resources for editing and proofreading.\n\n\n\n\nWeek 9-10\nNavigating peer-review process\n\nOverview of the peer-review process in academic publishing.\nSelecting appropriate journals for submission.\nPreparing manuscripts for submission.\nResponding to reviewer feedback and revising manuscripts.\n\n\n\n\nWeek 11-12\nEthical considerations in publishing\n\nDiscussion of plagiarism, authorship, and other ethical issues in academic publishing.\nIntroduction to copyright and intellectual property.\nExploration of open access and alternative publishing models.\n\n\n\n\nWeek 13-14\nConference presentation and other scholarly outputs\n\nPreparing and delivering effective conference presentations.\nWriting conference abstracts and proposal.\nExploring other scholarly outputs.\n\n\n\n\nWeek 15-16\nFinal project presentations and discussion\n\nPresentation of final research papers and other scholarly projects.\nDiscussion and feedback from peers and instructor.\nReflections on the course and future goals in academic writing and publishing.",
+    "crumbs": [
+      "Course Outline"
+    ]
+  }
+]
