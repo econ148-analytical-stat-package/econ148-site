@@ -7,8 +7,8 @@ website:
   title: "Econ 148"
   favicon: "plot/econ148-hex-logo.png"
   
-  repo-url: https://github.com/seminar-academic-writing/class-2024
-  site-url: https://seminar-academic-writing.github.io/class-2024/
+  repo-url: https://github.com/econ148-analytical-stat-package
+  site-url: https://econ148-analytical-stat-package.github.io/econ148-site/
   
   sidebar:
     style: docked
@@ -35,9 +35,14 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, dark-style.scss]
+    mainfont: "Arial"
+    code-copy: true
+    code-overflow: wrap
     toc: true
 
+freeze: auto
 editor: visual
 

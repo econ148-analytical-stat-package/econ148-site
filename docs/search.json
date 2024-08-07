@@ -4,7 +4,18 @@
     "href": "index.html",
     "title": "Econ 148: Analytical and statistical packages for economist 1",
     "section": "",
-    "text": "Class schedule: TBA  Laboratory schedule: TBA  Instructor: Christopher Llones  e-mail: christopher.allones@gmail.com  Pre-requisites: Econ 115 - Econometrics  Course credits: 3 units  Number of hours: 2 hrs lectures and 3 hrs laboratory per week \n\nCourse description\n\n\n\n\n\n\nIntroduction to survey research and survey data analysis in MS Excel, IBM SPSS, Stata and R.\n\n\n\n\n\nCourse objectives\n\n\n\n\n\n\n\nCreate a valid and reliable survey questionnaire and survey codebook.\nPerform exploratory data analysis on survey data using R programming.\nPerform Parametric and Non-Parametric Test on Means using SPSS.\nPerform correlation analysis and build a regression model explaining relationship of certain economic variables in STATA.\nPerform regression analysis on limited dependent variables in STATA.\nPerform various techniques of multivariate data analysis in the R statistical software."
+    "text": "Class schedule: Monday & Tuesday | 17:00 - 18:00  Laboratory schedule: Wednesday | 16:00 - 19:00  Instructor: Christopher Llones  e-mail: christopher.llones@vsu.edu.ph  Pre-requisites: Econ 115 - Econometrics  Course credits: 3 units  Number of hours: 2 hrs lectures and 3 hrs laboratory per week \n\nCourse description\n\n\n\n\n\n\nIntroduction to survey research and survey data analysis using R programming.\n\n\n\n\n\nCourse objectives\n\n\n\n\n\n\n\nCreate a valid and reliable survey questionnaire and survey codebook.\nPerform exploratory data analysis on survey data using R programming.\nPerform Parametric and Non-Parametric Test on Means using R.\nPerform correlation analysis and build a regression model explaining relationship of certain economic variables in R.\nPerform regression analysis on limited dependent variables in R.\nPerform various techniques of multivariate data analysis in the R statistical software."
+  },
+  {
+    "objectID": "02-m1-survey-research-design.html",
+    "href": "02-m1-survey-research-design.html",
+    "title": "Module 1: Survey research design",
+    "section": "",
+    "text": "Methods of data collection\nSampling desing in surveys\nMeasurement issues in survey research\nQuestionnaire construction\nBasics of interviewing\nCreating codebook\nData entry\n\nView slides in new window\n\n \n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Module 1: survey research design"
+    ]
   },
   {
     "objectID": "01-course-outline.html",

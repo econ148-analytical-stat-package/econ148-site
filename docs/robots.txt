@@ -1,1 +1,1 @@
-Sitemap: https://seminar-academic-writing.github.io/class-2024/sitemap.xml
+Sitemap: https://econ148-analytical-stat-package.github.io/econ148-site/sitemap.xml
