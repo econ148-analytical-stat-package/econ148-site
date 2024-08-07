@@ -16,8 +16,8 @@ website:
     seacrh: true
     logo: "plot/econ148-hex-logo.png"
     contents:
-      - href: "01-course-outline.qmd"
-        text: "Course Outline"
+      - href: "index.qmd"
+        text: "Home"
       - section: "Topics"
         contents:
           - href: "02-m1-survey-research-design.qmd"
