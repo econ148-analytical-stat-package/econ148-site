@@ -1,5 +1,5 @@
 ---
-title: "Econ 148: Analytical and statistical packages for economist 1"
+title: "Econ 148: Analytical and statistical packages for economists 1"
 ---
 
 <br>
