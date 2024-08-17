@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/index.html</loc>
-    <lastmod>2024-08-12T04:52:17.050Z</lastmod>
+    <lastmod>2024-08-17T15:05:27.216Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/06-m5-limdep-model.html</loc>
-    <lastmod>2024-07-25T04:13:02.694Z</lastmod>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/04-m3-test-means.html</loc>
-    <lastmod>2024-07-25T04:11:18.244Z</lastmod>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/02-m1-survey-research-design.html</loc>
-    <lastmod>2024-08-07T08:14:51.168Z</lastmod>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/01-course-outline.html</loc>
-    <lastmod>2024-08-07T09:06:49.434Z</lastmod>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/03-m2-exploratory-data-analysis.html</loc>
-    <lastmod>2024-07-25T04:09:38.694Z</lastmod>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/05-m4-corr-reg-analysis.html</loc>
-    <lastmod>2024-07-25T04:12:13.966Z</lastmod>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/07-m6-multivariate-analysis.html</loc>
-    <lastmod>2024-07-25T04:13:51.217Z</lastmod>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/00-m0-intro-r.html</loc>
+    <lastmod>2024-08-17T15:18:15.632Z</lastmod>
   </url>
 </urlset>

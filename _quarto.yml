@@ -20,6 +20,8 @@ website:
         text: "Home"
       - section: "Topics"
         contents:
+          - href: "00-m0-intro-r.qmd"
+            text: "Introduction to R programming"
           - href: "02-m1-survey-research-design.qmd"
             text: "Module 1: survey research design"
           - href: "03-m2-exploratory-data-analysis.qmd"

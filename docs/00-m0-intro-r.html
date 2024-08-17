@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Econ 148 - Econ 148: Analytical and statistical packages for economists 1</title>
+<title>Econ 148 - Intro to R programming</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./00-m0-intro-r.html" rel="next">
+<link href="./02-m1-survey-research-design.html" rel="next">
+<link href="./index.html" rel="prev">
 <link href="./plot/econ148-hex-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Introduction to R programming</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -112,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -127,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./00-m0-intro-r.html" class="sidebar-item-text sidebar-link">
+  <a href="./00-m0-intro-r.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Introduction to R programming</span></a>
   </div>
 </li>
@@ -175,22 +176,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course description</a></li>
-  <li><a href="#course-objectives" id="toc-course-objectives" class="nav-link" data-scroll-target="#course-objectives">Course objectives</a></li>
-  <li><a href="#course-outline" id="toc-course-outline" class="nav-link" data-scroll-target="#course-outline">Course outline</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Introduction to R programming</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Econ 148: Analytical and statistical packages for economists 1</h1>
+<h1 class="title">Intro to R programming</h1>
 </div>
 
 
@@ -207,136 +200,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><br></p>
-<p><strong>Class schedule:</strong> Monday &amp; Tuesday | 17:00 - 18:00 <br> <strong>Laboratory schedule:</strong> Wednesday | 16:00 - 19:00 <br> <strong>Instructor:</strong> Christopher Llones <br> <strong>e-mail:</strong> christopher.llones@vsu.edu.ph <br> <strong>Pre-requisites:</strong> Econ 115 - Econometrics <br> <strong>Course credits:</strong> 3 units <br> <strong>Number of hours:</strong> 2 hrs lectures and 3 hrs laboratory per week <br></p>
-<hr>
-<section id="course-description" class="level3">
-<h3 class="anchored" data-anchor-id="course-description">Course description</h3>
-<p>Introduction to survey research and survey data analysis using R programming.</p>
-</section>
-<section id="course-objectives" class="level3">
-<h3 class="anchored" data-anchor-id="course-objectives">Course objectives</h3>
+<ol type="1">
+<li>R objects</li>
+<li>R packages</li>
+<li>Reading data in R</li>
+<li>Basic data wrangling</li>
+</ol>
+<p><a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-r" target="_blank" class="btn-slides">View slides in new window</a></p>
+<div class="box" style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-r" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
+</iframe>
+</div>
+<section id="presentation-keyboard-shortcuts" class="level4">
+<h4 class="anchored" data-anchor-id="presentation-keyboard-shortcuts">Presentation keyboard shortcuts</h4>
+<div class="text-line-space">
 <ul>
-<li>Create a valid and reliable survey questionnaire and survey codebook.</li>
-<li>Perform exploratory data analysis on survey data using R programming.</li>
-<li>Perform Parametric and Non-Parametric Test on Means using R.</li>
-<li>Perform correlation analysis and build a regression model explaining relationship of certain economic variables in R.</li>
-<li>Perform regression analysis on limited dependent variables in R.</li>
-<li>Perform various techniques of multivariate data analysis in the R statistical software.</li>
+<li>
+Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides
+</li>
+<li>
+Use <kbd>F</kbd> to toggle full screen
+</li>
+<li>
+Use <kbd>O</kbd> to view an overview of all slides
+</li>
+<li>
+Use <kbd>?</kbd> to see a list of other shortcuts
+</li>
 </ul>
-</section>
-<section id="course-outline" class="level3">
-<h3 class="anchored" data-anchor-id="course-outline">Course outline</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 3%">
-<col style="width: 14%">
-<col style="width: 15%">
-<col style="width: 65%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Topics</th>
-<th>Lessons</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Week 2-4</td>
-<td>Module 1: survey research design</td>
-<td><ol type="1">
-<li>Methods of data collection</li>
-<li>Sampling design in surveys</li>
-<li>Measurement issues in survey research</li>
-<li>Questionnaire construction</li>
-<li>Basics of interviewing</li>
-<li>Creating a codebook</li>
-<li>Data entry</li>
-</ol></td>
-<td><ol type="1">
-<li>Discuss the various methods of data collection including survey, observation and experimental methods.</li>
-<li>Discuss different ways for gathering a sample; random and non-random sampling. Discuss rudimentary formulas for sample size calculation.</li>
-<li>Discuss the issues in assigning numbers to represent quantities of attributes. Discuss the various scales of measurement. Discuss criteria in constructing good measurement of variables: reliablity and validity.</li>
-<li>Discuss the various advantages and disadvantages of interviews and questionnaire over other methods of data collection.</li>
-<li>Discuss the do’s and dont’s of an interviewer’s conduct.</li>
-<li>Discuss the importance of creating a codebook for survey data.</li>
-<li>Discuss rudimentary of data entry.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Week 5-6</td>
-<td>Module 2: exploratory data analysis</td>
-<td><ol type="1">
-<li>Rudiments of EDA</li>
-<li>Charts and tables</li>
-<li>Measures of central tendency</li>
-<li>Dispersion, parameters, skewness and kurtosis</li>
-<li>Contingency tables and scatter plot</li>
-</ol></td>
-<td><ol type="1">
-<li>Discuss EDA as the first step in data analysis.</li>
-<li>Discuss various techniques in summarizing and visualizing data.</li>
-<li>Discuss the various measures of central tendency and data location.</li>
-<li>Discuss the relevance of various dispersion, parameters, skewness and kurtosis.</li>
-<li>Discuss the relevance of contingency tables and scatterplots for summarizing and visualizing data.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Week 7-8</td>
-<td>Module 3: test on means</td>
-<td><ol type="1">
-<li>Parametric test on means</li>
-<li>Non-parametric test on means</li>
-</ol></td>
-<td><ol type="1">
-<li>Discuss the various t-tests and ANOVA and perform them on a sample data with R.</li>
-<li>Perform various non-parametric equivalent of the t-tests and ANOVA on sample data with R.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Week 9-11</td>
-<td>Module 4: correlation and regression analysis</td>
-<td><ol type="1">
-<li>Correlation analysis</li>
-<li>Review of Regression analysis</li>
-</ol></td>
-<td><ol type="1">
-<li>Discuss the various types of correlation analysis procedures. Interpret the correlation coefficient.</li>
-<li>Discuss the various aspects of regression model building.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Week 12-15</td>
-<td>Module 5: limited-dependent variable models</td>
-<td><ol type="1">
-<li>Review of binary dependent regression</li>
-<li>Extension to the logit model.</li>
-<li>Censored and truncated regression models.</li>
-<li>Count dependent variable models.</li>
-</ol></td>
-<td><ol type="1">
-<li>Discuss the various aspects of the logit and probit.</li>
-<li>Discuss the multinomial and ordinal logit models.</li>
-<li>Discuss the Tobit regression model for censored data and truncated regression models.</li>
-<li>Discuss Poisson and Negative Binomial regression models in the regression analysis of count-dependent variable models.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Week 16-17</td>
-<td>Module 6: multivariate statistical analysis</td>
-<td><ol type="1">
-<li>Cluster analysis</li>
-<li>Principal component analysis</li>
-<li>Exploratory factor analysis</li>
-<li>Confirmatory factor anlysis</li>
-<li>Structural equation modelling</li>
-</ol></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+</div>
 
 
 </section>
@@ -897,10 +789,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Home">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./00-m0-intro-r.html" class="pagination-link" aria-label="Introduction to R programming">
-        <span class="nav-page-text">Introduction to R programming</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./02-m1-survey-research-design.html" class="pagination-link" aria-label="Module 1: survey research design">
+        <span class="nav-page-text">Module 1: survey research design</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
