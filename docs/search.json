@@ -25,7 +25,18 @@
     "href": "00-m0-intro-r.html",
     "title": "Intro to R programming",
     "section": "",
-    "text": "R objects\nR packages\nReading data in R\nBasic data wrangling\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "text": "R objects\nR packages\nReading data in R\nBasic data wrangling\nView slides in new window",
+    "crumbs": [
+      "Topics",
+      "Introduction to R programming"
+    ]
+  },
+  {
+    "objectID": "00-m0-intro-r.html#exercises",
+    "href": "00-m0-intro-r.html#exercises",
+    "title": "Intro to R programming",
+    "section": "Exercises",
+    "text": "Exercises\n\nInstall R and RStudio on your computer.\nDownload the entire folder 00-module-intro-r from the Google Drive link. For the meantime, keep the folder in your computer and wait for further instructions during the class.\nBefore the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.\n\n\n## install required packages\ninstall.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n\n\n\n\n\nImportant\n\n\n\nPlease make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.",
     "crumbs": [
       "Topics",
       "Introduction to R programming"

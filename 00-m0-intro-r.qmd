@@ -15,7 +15,8 @@ title: "Intro to R programming"
 </iframe>
 :::
 
-#### Presentation keyboard shortcuts
+::: callout-tip
+## Presentation keyboard shortcuts
 
 ::: text-line-space
 <ul>
@@ -29,4 +30,30 @@ title: "Intro to R programming"
 <li>Use <kbd>?</kbd> to see a list of other shortcuts</li>
 
 </ul>
+:::
+:::
+
+<br>
+
+## Exercises
+
+1. Install [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://posit.co/download/rstudio-desktop/) on your computer.
+
+2. Download the entire folder `00-module-intro-r` from the [Google Drive link](https://drive.google.com/drive/folders/10EwKKO1SxHdZSWWO1ko2WUFIOIRZM0HU?usp=sharing). For the meantime, keep the folder in your computer and wait for further instructions during the class.
+
+3. Before the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.
+
+```{r}
+#| eval: false
+
+## install required packages
+install.packages(c("janitor", "readxl", "haven", "tidyverse", "skimr"))
+```
+
+
+:::{.callout-warning}
+## Important
+
+Please make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.
+
 :::

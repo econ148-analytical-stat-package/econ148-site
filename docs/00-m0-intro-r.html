@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -182,7 +216,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link active" data-scroll-target="#exercises">Exercises</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -217,8 +257,16 @@ ul.task-list li input[type="checkbox"] {
 <iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-r" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
 </iframe>
 </div>
-<section id="presentation-keyboard-shortcuts" class="level4">
-<h4 class="anchored" data-anchor-id="presentation-keyboard-shortcuts">Presentation keyboard shortcuts</h4>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Presentation keyboard shortcuts
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <div class="text-line-space">
 <ul>
 <li>
@@ -234,6 +282,33 @@ Use <kbd>O</kbd> to view an overview of all slides
 Use <kbd>?</kbd> to see a list of other shortcuts
 </li>
 </ul>
+</div>
+</div>
+</div>
+<p><br></p>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<ol type="1">
+<li><p>Install <a href="https://cran.r-project.org/bin/windows/base/">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> on your computer.</p></li>
+<li><p>Download the entire folder <code>00-module-intro-r</code> from the <a href="https://drive.google.com/drive/folders/10EwKKO1SxHdZSWWO1ko2WUFIOIRZM0HU?usp=sharing">Google Drive link</a>. For the meantime, keep the folder in your computer and wait for further instructions during the class.</p></li>
+<li><p>Before the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.</p></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="do">## install required packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"janitor"</span>, <span class="st">"readxl"</span>, <span class="st">"haven"</span>, <span class="st">"tidyverse"</span>, <span class="st">"skimr"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.</p>
+</div>
 </div>
 
 
