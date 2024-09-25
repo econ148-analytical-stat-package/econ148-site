@@ -81,5 +81,16 @@
     "title": "Course outline",
     "section": "",
     "text": "Week\nTopics\nLessons\nActivities\n\n\n\n\nWeek 1-2\nFoundation of academic writing\n\nOverview of academic writing genres and their purposes.\nDiscussion of the key principles of academic writing.\nIntroduction to the structure of academic papers.\n\n\n\n\nWeek 3-4\nDeveloping research methods\n\nFormulating research topics and research questions.\nIdentifying relevant literature and conducting a literature review.\nDeveloping a thesis statement and creating an outline for a research paper.\n\n\n\n\nWeek 5-6\nWriting first darf\n\nWriting effective introductions and conclusions.\nCrafting clear and concise methods and results section.\nWriting persuasive literature and discussions.\nUsing appropriate language and tone in academic writing.\n\n\n\n\nWeek 7-8\nRevising and editing\n\nStrategies for revising and editing academic writing.\nPeer review and feedback exercises.\nUsing tools and resources for editing and proofreading.\n\n\n\n\nWeek 9-10\nNavigating peer-review process\n\nOverview of the peer-review process in academic publishing.\nSelecting appropriate journals for submission.\nPreparing manuscripts for submission.\nResponding to reviewer feedback and revising manuscripts.\n\n\n\n\nWeek 11-12\nEthical considerations in publishing\n\nDiscussion of plagiarism, authorship, and other ethical issues in academic publishing.\nIntroduction to copyright and intellectual property.\nExploration of open access and alternative publishing models.\n\n\n\n\nWeek 13-14\nConference presentation and other scholarly outputs\n\nPreparing and delivering effective conference presentations.\nWriting conference abstracts and proposal.\nExploring other scholarly outputs.\n\n\n\n\nWeek 15-16\nFinal project presentations and discussion\n\nPresentation of final research papers and other scholarly projects.\nDiscussion and feedback from peers and instructor.\nReflections on the course and future goals in academic writing and publishing."
+  },
+  {
+    "objectID": "00-m0-reproducible-quarto.html",
+    "href": "00-m0-reproducible-quarto.html",
+    "title": "Reproducible report with Quarto in R",
+    "section": "",
+    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Reproducible report with Quarto in R"
+    ]
   }
 ]

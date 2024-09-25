@@ -24,6 +24,8 @@ website:
             text: "Introduction to R programming"
           - href: "00-m0-intro-data-viz-ggplot.qmd"
             text: "Intro to data visualization using ggplot2"
+          - href: "00-m0-reproducible-quarto.qmd"
+            text: "Reproducible report with Quarto in R"
           - href: "02-m1-survey-research-design.qmd"
             text: "Module 1: survey research design"
           - href: "03-m2-exploratory-data-analysis.qmd"
