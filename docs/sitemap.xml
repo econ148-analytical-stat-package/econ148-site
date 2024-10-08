@@ -1,39 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/index.html</loc>
-    <lastmod>2024-08-17T15:34:02.876Z</lastmod>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/00-m0-midterm-project.html</loc>
+    <lastmod>2024-10-08T04:44:59.152Z</lastmod>
   </url>
   <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/06-m5-limdep-model.html</loc>
-    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/04-m3-test-means.html</loc>
-    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/02-m1-survey-research-design.html</loc>
-    <lastmod>2024-08-17T15:25:31.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/00-m0-reproducible-quarto.html</loc>
-    <lastmod>2024-09-25T06:40:13.611Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/00-m0-intro-data-viz-ggplot.html</loc>
-    <lastmod>2024-09-18T02:04:19.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/00-m0-intro-r.html</loc>
-    <lastmod>2024-09-02T09:50:15.590Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/01-course-outline.html</loc>
-    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/03-m2-exploratory-data-analysis.html</loc>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/07-m6-multivariate-analysis.html</loc>
     <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
   <url>
@@ -41,7 +13,27 @@
     <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
   <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/07-m6-multivariate-analysis.html</loc>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/03-m2-exploratory-data-analysis.html</loc>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/01-course-outline.html</loc>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/00-m0-reproducible-quarto.html</loc>
+    <lastmod>2024-09-25T06:40:13.611Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/02-m1-survey-research-design.html</loc>
+    <lastmod>2024-08-17T15:25:31.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/04-m3-test-means.html</loc>
+    <lastmod>2024-08-17T15:05:27.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/06-m5-limdep-model.html</loc>
     <lastmod>2024-08-17T15:05:27.166Z</lastmod>
   </url>
 </urlset>

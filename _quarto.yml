@@ -26,6 +26,8 @@ website:
             text: "Intro to data visualization using ggplot2"
           - href: "00-m0-reproducible-quarto.qmd"
             text: "Reproducible report with Quarto in R"
+          - href: "00-m0-midterm-project.qmd"
+            text: "Midterm project"
           - href: "02-m1-survey-research-design.qmd"
             text: "Module 1: survey research design"
           - href: "03-m2-exploratory-data-analysis.qmd"
