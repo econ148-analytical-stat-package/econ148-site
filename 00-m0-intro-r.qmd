@@ -1,5 +1,5 @@
 ---
-title: "Intro to R programming"
+title: "Module 1: Intro to R programming"
 ---
 
 1.  R objects
