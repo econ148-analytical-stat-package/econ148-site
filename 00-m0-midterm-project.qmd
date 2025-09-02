@@ -12,7 +12,6 @@ Download the project files using this link: [Midterm project files](https://driv
 
 First, rename the `lastname-firstname.qmd` file to your actual last name and first name. For example, if your name is John Doe, the file should be named `doe-john.qmd`. Afterward, open the R project `20241007-econ148-project-exercise-1.Rproj` by double-clicking the file and render the Quarto markdown file to generate the HTML file.
 
-
 ## Project overiew
 
 In this project, we will explore employee attrition and performance using the HR Analytics Employee Attrition & Performance dataset. The primary goal is to develop insights into the factors that contribute to employee attrition.
@@ -168,8 +167,6 @@ Before we start working on the dataset, we need to load the necessary libraries 
 
 
 ```
-
-
 
 ### Analysis of compensation and turnover
 
