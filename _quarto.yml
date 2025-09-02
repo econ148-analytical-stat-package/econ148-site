@@ -20,9 +20,9 @@ website:
         text: "Home"
       - section: "Topics"
         contents:
-          - href: "00-m0-intro-r.qmd"
+          - href: "m1-intro-r.qmd"
             text: "Module 1: Introduction to R programming"
-          - href: "00-m0-intro-data-viz-ggplot.qmd"
+          - href: "m2-intro-data-viz-ggplot.qmd"
             text: "Module 2: Intro to data visualization using ggplot2"
           - href: ""
             text: "Module 3: Reproducible report with Quarto in R"

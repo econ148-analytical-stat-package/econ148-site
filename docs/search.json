@@ -18,21 +18,33 @@
     "href": "m1-intro-r.html",
     "title": "Module 1: Intro to R programming",
     "section": "",
-    "text": "R objects\nR packages\nReading data in R\nBasic data wrangling\nView slides in new window"
+    "text": "R objects\nR packages\nReading data in R\nBasic data wrangling\nView slides in new window",
+    "crumbs": [
+      "Topics",
+      "Module 1: Introduction to R programming"
+    ]
   },
   {
     "objectID": "m1-intro-r.html#exercises",
     "href": "m1-intro-r.html#exercises",
     "title": "Module 1: Intro to R programming",
     "section": "Exercises",
-    "text": "Exercises\n\nInstall R and RStudio on your computer.\nDownload the entire folder 00-module-intro-r from the Google Drive link. For the meantime, keep the folder in your computer and wait for further instructions during the class.\nBefore the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.\n\n\n## install required packages\ninstall.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n\n\n\n\n\nImportant\n\n\n\nPlease make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know."
+    "text": "Exercises\n\nInstall R and RStudio on your computer.\nDownload the entire folder 00-module-intro-r from the Google Drive link. For the meantime, keep the folder in your computer and wait for further instructions during the class.\nBefore the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.\n\n\n## install required packages\ninstall.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n\n\n\n\n\nImportant\n\n\n\nPlease make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.",
+    "crumbs": [
+      "Topics",
+      "Module 1: Introduction to R programming"
+    ]
   },
   {
     "objectID": "m1-intro-r.html#class-demonstration-in-progress",
     "href": "m1-intro-r.html#class-demonstration-in-progress",
     "title": "Module 1: Intro to R programming",
     "section": "Class demonstration in progress",
-    "text": "Class demonstration in progress\n\n# INTRO TO R AND BASIC DATA WRANGLING ----\n\n## Install packages\n# install.packages(\"readr\")\n# install.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n# 1. R Packages ----\nlibrary(readr) # reading csv files\nlibrary(readxl) # reading excel files\nlibrary(haven) # reading spss, sas, stata files\nlibrary(tidyverse) # load all packages under tidyverse environment\nlibrary(dplyr) # for data wrangling\nlibrary(skimr) # quick exploration of your data\nlibrary(janitor) # quick cleaning of dataset\nlibrary(gapminder)\n\n\n# 2. Set the working directory ----\nsetwd(\"D:/Githu-repository/econ148-analytical-stat-packages/148-class-demo/00-module-intro-r\")\n\n\n\n# 3. Reading data into R ----\n\n## 3.1 CSV files\n### Load swimming_pools.csv files using the read_csv() function\nswim_data &lt;- read_csv(\"sample_dataset/swimming_pools.csv\")\nswim_data\n\n### Load potatoes.csv using read_csv() and read.csv()\n#### Observe the difference in the output\n\npotato_data &lt;- read_csv(\"sample_dataset/potatoes.csv\")\npotato_data_2 &lt;- read.csv(\"sample_dataset/potatoes.csv\")\n\nView(potato_data)\n\n\n\n## 3.2 Excel files\n### Load urban_pop files and use the read_xls() and read_excel() functions\n### Save the data into a variable named urban_pop\n\nurban_pop &lt;- read_xls(\"sample_dataset/urbanpop.xls\")\n\n\n\n### Transform the urban_pop data into long-format\n\n\n\n## 3.2 SPSS files\n### Load HBAT.sav\n\nhbat_data &lt;- read_sav(\"sample_dataset/HBAT.sav\")\n\n### Load data from Stata online @ https://www.stata-press.com/data/r9/u.html\n### Use the link http://www.stata-press.com/data/r9/auto.dta and save the data into a variable named auto\n\nauto_data &lt;- read_dta(\"http://www.stata-press.com/data/r9/auto.dta\")\n\n\n## 3.3 Load SAS data\n### Read the SAS data from the eventrepository.sas7bdat file\n### Clean the variable names using the clean_names() function from janitor package\n\nevent_data &lt;- read_sas(\"sample_dataset/eventrepository.sas7bdat\")\nevent_data &lt;- clean_names(event_data)\n\n# 4. Basic data wrangling with tidyverse ----\n### Use gapminder dataset from gapminder package and save it into a variable named gapminder_data\n\ngapminder_data &lt;- gapminder::gapminder\n\n## 4.1 filter() ----\n### Using the gapminder_data, filter dataset for the year 1957\ngapminder_1957 &lt;- filter(gapminder_data, year == 1957)\n\n\n### Now, filter for Philippines in 2002\nfilter(gapminder_data, year &lt; 2000, country == \"Philippines\")\nfilter(gapminder_data, country == \"Philippines\")\n\n### Filter for the year 1957, then arrange in descending order of population\nfilter(gapminder_data, year == 1957)\n\narrange(filter(gapminder_data, year == 1957), desc(pop))\n\ngapminder_data |&gt; \n  filter(year == 1957) |&gt; \n  arrange(pop)\n\n\n\n## 4.2 mutate() ----\n### Use mutate to compute for GDP"
+    "text": "Class demonstration in progress\n\n# INTRO TO R AND BASIC DATA WRANGLING ----\n\n## Install packages\n# install.packages(\"readr\")\n# install.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n# 1. R Packages ----\nlibrary(readr) # reading csv files\nlibrary(readxl) # reading excel files\nlibrary(haven) # reading spss, sas, stata files\nlibrary(tidyverse) # load all packages under tidyverse environment\nlibrary(dplyr) # for data wrangling\nlibrary(skimr) # quick exploration of your data\nlibrary(janitor) # quick cleaning of dataset\nlibrary(gapminder)\n\n\n# 2. Set the working directory ----\nsetwd(\"D:/Githu-repository/econ148-analytical-stat-packages/148-class-demo/00-module-intro-r\")\n\n\n\n# 3. Reading data into R ----\n\n## 3.1 CSV files\n### Load swimming_pools.csv files using the read_csv() function\nswim_data &lt;- read_csv(\"sample_dataset/swimming_pools.csv\")\nswim_data\n\n### Load potatoes.csv using read_csv() and read.csv()\n#### Observe the difference in the output\n\npotato_data &lt;- read_csv(\"sample_dataset/potatoes.csv\")\npotato_data_2 &lt;- read.csv(\"sample_dataset/potatoes.csv\")\n\nView(potato_data)\n\n\n\n## 3.2 Excel files\n### Load urban_pop files and use the read_xls() and read_excel() functions\n### Save the data into a variable named urban_pop\n\nurban_pop &lt;- read_xls(\"sample_dataset/urbanpop.xls\")\n\n\n\n### Transform the urban_pop data into long-format\n\n\n\n## 3.2 SPSS files\n### Load HBAT.sav\n\nhbat_data &lt;- read_sav(\"sample_dataset/HBAT.sav\")\n\n### Load data from Stata online @ https://www.stata-press.com/data/r9/u.html\n### Use the link http://www.stata-press.com/data/r9/auto.dta and save the data into a variable named auto\n\nauto_data &lt;- read_dta(\"http://www.stata-press.com/data/r9/auto.dta\")\n\n\n## 3.3 Load SAS data\n### Read the SAS data from the eventrepository.sas7bdat file\n### Clean the variable names using the clean_names() function from janitor package\n\nevent_data &lt;- read_sas(\"sample_dataset/eventrepository.sas7bdat\")\nevent_data &lt;- clean_names(event_data)\n\n# 4. Basic data wrangling with tidyverse ----\n### Use gapminder dataset from gapminder package and save it into a variable named gapminder_data\n\ngapminder_data &lt;- gapminder::gapminder\n\n## 4.1 filter() ----\n### Using the gapminder_data, filter dataset for the year 1957\ngapminder_1957 &lt;- filter(gapminder_data, year == 1957)\n\n\n### Now, filter for Philippines in 2002\nfilter(gapminder_data, year &lt; 2000, country == \"Philippines\")\nfilter(gapminder_data, country == \"Philippines\")\n\n### Filter for the year 1957, then arrange in descending order of population\nfilter(gapminder_data, year == 1957)\n\narrange(filter(gapminder_data, year == 1957), desc(pop))\n\ngapminder_data |&gt; \n  filter(year == 1957) |&gt; \n  arrange(pop)\n\n\n\n## 4.2 mutate() ----\n### Use mutate to compute for GDP",
+    "crumbs": [
+      "Topics",
+      "Module 1: Introduction to R programming"
+    ]
   },
   {
     "objectID": "01-course-outline.html",
@@ -84,7 +96,11 @@
     "href": "m2-intro-data-viz-ggplot.html",
     "title": "Module 2: Intro to data visualization using ggplot2",
     "section": "",
-    "text": "The grammar of graphics\nDatasets and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+    "text": "The grammar of graphics\nDatasets and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Module 2: Intro to data visualization using ggplot2"
+    ]
   },
   {
     "objectID": "m4-survey-research-design.html",
