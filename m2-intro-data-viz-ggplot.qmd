@@ -33,3 +33,88 @@ title: "Module 2: Intro to data visualization using ggplot2"
 
 </ul>
 :::
+
+
+## Class demonstration
+
+
+1. Line plot: baby names
+
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+
+## libraries
+library(tidyverse)
+library(babynames)
+
+## my male friends
+my_male_friends_data <- 
+  babynames %>% 
+  filter(name %in% c("Christopher", "Vincent", "John", "Marvin")) %>% 
+  filter(sex == "M")
+
+
+### line plot
+ggplot(data = my_male_friends_data, 
+       mapping = aes(x = year, y = n, color = name)) +
+  geom_line() +
+  geom_point() +
+  scale_y_log10() +
+  theme_minimal()
+
+```
+
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+
+## my female friends
+my_female_friends_data <- 
+  babynames %>% 
+  filter(name %in% c("Jane", "Mariah", "Marian", "Sarah")) %>% 
+  filter(sex == "F")
+
+## line plot
+ggplot(data = my_female_friends_data, 
+       mapping = aes(x = year, y = n, color = name)) +
+  geom_line() +
+  geom_point() +
+  scale_y_log10() +
+  theme_minimal()
+
+```
+
+
+
+2. Scatter plot
+
+```{r}
+## average fuel consumption
+mean_hwy_data <- 
+  mpg %>% 
+  group_by(class) %>% 
+  summarise(mean_hwy = mean(hwy, na.rm = TRUE))
+
+## scatter plot
+ggplot(data = mpg, 
+       mapping = aes(x = class, y = hwy, color = class)) +
+  geom_point(position = position_jitter(width = 0.2), size = 2.5, alpha = 0.4) +
+  geom_point(data = mean_hwy_data, aes(y = mean_hwy), size = 5) +
+  labs(title = "Fuel consumption per class vehicle",
+       x = "Class of vehicle",
+       y = "Highway fuel consumption") +
+  theme_minimal() +
+  theme(panel.grid = element_line(color = "gray80"),
+        plot.margin = margin(rep(20, 4)),
+        plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+        axis.title.x = element_text(margin = margin(t = 20)),
+        axis.title.y = element_text(margin = margin(r = 20))
+        )
+```
+
+
