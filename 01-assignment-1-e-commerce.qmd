@@ -14,7 +14,7 @@ This assignment will strengthen your ability to analyze economic data using R. Y
 
 ## Instructions
 
--   Use R and the `dplyr` package to answer each question.
+- Use R and the `dplyr` package to answer each question.
 
 - Submit your R script file (.R) with your code and outputs.
 
@@ -53,7 +53,7 @@ This assignment will strengthen your ability to analyze economic data using R. Y
 
 **Part 3: produce performance**
 
-7.Which product had the highest total sales?
+7. Which product had the highest total sales?
 
 8. Which sub-category had the lowest average profit per unit sold?
 
