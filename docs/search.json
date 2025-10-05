@@ -71,6 +71,61 @@
     "text": "Exploratory data analysis\n\nDescriptive statistics of employee attrition\n\n\n\n\n\n\nTask 3.1. Breakdown of attrition by key variables\n\n\n\n\nSelect the variables attrition, job_role, department, age, salary, job_satisfaction, and work_life_balance. Save as attrition_key_var_dta.\nCompute and plot the attrition rate across job_role, department, and age, salary, job_satisfaction, and work_life_balance. To compute for the attrition rate, group the dataset by job role. Afterward, you can use the count function to get the frequency of attrition for each job role and then divide it by the total number of observations. Save the computation as pct_attrition. Do not forget to ungroup before storing the output. Store the output as attrition_rate_job_role.\nPlot for the attrition rate across job_role has been done for you! Study each line of code. You have the freedom to customize your plot accordingly. Show your creativity!\n\n\n\n\n## selecting attrition key variables and save as `attrition_key_var_dta`\n\n\n\n\n## compute the attrition rate across job_role and save as attrition_rate_job_role\n\n\n\n## print attrition_rate_job_role\n\n\n## Plot the attrition rate\n\n\n\nAnalysis of compensation and turnover\n\n\n\n\n\n\nTask 3.2. Analyzing compensation and turnover\n\n\n\n\nCompare the average monthly income of employees who left the company (bi_attrition = 1) and those who stayed (bi_attrition = 0). Use the t.test function to conduct a t-test and determine if there is a significant difference in average monthly income between the two groups. Save the results in a variable called attrition_ttest_results.\nInstall the report package and use the report function to generate a report of the t-test results.\nInstall the ggstatsplot package and use the ggbetweenstats function to visualize the distribution of monthly income for employees who left and those who stayed. Make sure to map the bi_attrition variable to the x argument and the salary variable to the y argument.\nVisualize the salary variable for employees who left and those who stayed using geom_histogram with geom_freqpoly. Make sure to facet the plot by the bi_attrition variable and apply alpha on the histogram plot.\nProvide recommendations on whether revising compensation policies could be an effective retention strategy.\n\n\n\n\n## compare the average monthly income of employees who left and those who stayed\n\n\n\n\n## print the results of the t-test\n\n\n## install the report package and use the report function to generate a report of the t-test results\n\n\n# install ggstatsplot package and use ggbetweenstats function to visualize the distribution of monthly income for employees who left and those who stayed\n\n\n# create histogram and frequency polygon of salary for employees who left and those who stayed\n\n\n\n\n\n\n\nDiscussion:\n\n\n\nProvide your discussion here.\n\n\n\n\nEmployee satisfaction and performance analysis\n\n\n\n\n\n\nTask 3.3. Analyzing employee satisfaction and performance\n\n\n\n\nAnalyze the average performance ratings (both ManagerRating and SelfRating) of employees who left vs. those who stayed. Use the group_by and count functions to calculate the average performance ratings for each group.\nVisualize the distribution of SelfRating for employees who left and those who stayed using a bar plot. Use the ggplot function to create the plot and map the SelfRating variable to the x argument and the bi_attrition variable to the fill argument.\nSimilarly, visualize the distribution of ManagerRating for employees who left and those who stayed using a bar plot. Make sure to map the ManagerRating variable to the x argument and the bi_attrition variable to the fill argument.\nCreate a boxplot of salary by job_satisfaction and bi_attrition to analyze the relationship between salary, job satisfaction, and attrition. Use the geom_boxplot function to create the plot and map the salary variable to the x argument, the job_satisfaction variable to the y argument, and the bi_attrition variable to the fill argument. You need to transform the job_satisfaction and bi_attrition variables into factors before creating the plot or within the ggplot function.\nDiscuss the results of the analysis and provide recommendations for HR interventions based on the findings.\n\n\n\n\n# Analyze the average performance ratings (both ManagerRating and SelfRating) of employees who left vs. those who stayed.\n\n\n# Visualize the distribution of SelfRating for employees who left and those who stayed using a bar plot.\n\n\n# Visualize the distribution of ManagerRating for employees who left and those who stayed using a bar plot.\n\n\n# create a boxplot of salary by job_satisfaction and bi_attrition to analyze the relationship between salary, job satisfaction, and attrition.\n\n\n\n\n\n\n\nDiscussion:\n\n\n\nProvide your discussion here.\n\n\n\n\nWork-life balance and retention strategies\n\n\n\n\n\n\nTask 3.4. Analyzing work-life balance and retention strategies\n\n\n\nAt this point, you are already well aware of the dataset and the possible factors that contribute to employee attrition. Using your R skills, accomplish the following tasks:\n\nAnalyze the distribution of WorkLifeBalance ratings for employees who left versus those who stayed.\nUse visualizations to show the differences.\nAssess whether employees with poor work-life balance are more likely to leave.\n\nYou have the freedom how you will accomplish this task. Be creative and provide insights that will help HR develop effective retention strategies."
   },
   {
+    "objectID": "01-assignment-1-e-commerce.html",
+    "href": "01-assignment-1-e-commerce.html",
+    "title": "Econ 148",
+    "section": "",
+    "text": "Course title: Econ148: Analytical and statistical packages for economics 1  Instructor: Christopher Llones  Assignment: E-commerce sales dataset analysis in R  Due Date: 15 October 2025",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
+    "objectID": "01-assignment-1-e-commerce.html#objective",
+    "href": "01-assignment-1-e-commerce.html#objective",
+    "title": "Econ 148",
+    "section": "Objective",
+    "text": "Objective\nThis assignment will strengthen your ability to analyze economic data using R. You’ll work with a synthetic but realistic dataset of e-commerce transactions from 2024–2025. Your goal is to apply dplyr and other relevant packages to explore sales patterns, profit margins, and regional trends.",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
+    "objectID": "01-assignment-1-e-commerce.html#instructions",
+    "href": "01-assignment-1-e-commerce.html#instructions",
+    "title": "Econ 148",
+    "section": "Instructions",
+    "text": "Instructions\n\nUse R and the dplyr package to answer each question.\nSubmit your R script file (.R) with your code and outputs.\nUse the pipe operator (%&gt;%) for all data manipulations.\nYou may use additional packages like ggplot2, lubridate, or stringr if needed.\nEnsure your code is clean, commented, and reproducible.\n\n\n\n\n\n\n\nDataset and files\n\n\n\n\nAccess the dataset and R script template from the econ148-assignment1 folder.\nSubmit your completed R script file (.R) by the due date and upload using this link: Submission Link.",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
+    "objectID": "01-assignment-1-e-commerce.html#questions",
+    "href": "01-assignment-1-e-commerce.html#questions",
+    "title": "Econ 148",
+    "section": "Questions",
+    "text": "Questions\nPart 1: Data familiarization\n\nHow many rows and columns are in the dataset?\nList all unique product categories and sub-categories.\nWhat are the earliest and latest order dates?\n\nPart 2: sales and profit analysis\n\nWhat is the total sales and total profit across all transactions?\nWhich region generated the highest total profit?\nWhat is the average discount applied across all orders?\n\nPart 3: produce performance\n7.Which product had the highest total sales?\n\nWhich sub-category had the lowest average profit per unit sold?\nIdentify the top 5 cities by total sales.\n\nPart 4: time series and trend analysis\n\nGroup the data by month and summarize total sales and profit.\nWhich month had the highest sales volume?\nPlot a time series of monthly sales using ggplot2.\n\nBonus Challenge\n\nCreate a new column for profit margin (profit as a percentage of sales). Then, find the average profit margin by region.\nIdentify any product with a negative profit margin and explain possible reasons.",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
+    "objectID": "01-assignment-1-e-commerce.html#grading-rubrics",
+    "href": "01-assignment-1-e-commerce.html#grading-rubrics",
+    "title": "Econ 148",
+    "section": "Grading rubrics",
+    "text": "Grading rubrics\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (5pts)\nGood (4pts)\nFair (2-3 pts)\nNeeds improvement (0-1 pt)\n\n\n\n\nCode accuracy\nAll answers are correct and match expected outputs.\nMost answers are correct with minor errors.\nSeveral answers are incorrect or incomplete.\nMany answers are missing or incorrect.\n\n\nUse of dplyr Functions\nConsistently uses appropriate dplyr verbs (filter, mutate, summarise, etc.).\nUses dplyr functions correctly in most cases.\nUses some dplyr functions but inconsistently or incorrectly.\nRarely uses dplyr or misuses functions.\n\n\nPipe Operator Usage (%&gt;%)\nPipe operator is used fluently and correctly throughout.\nMostly correct usage with occasional syntax issues.\nUsed sporadically or with frequent errors.\nNot used or used incorrectly.\n\n\nData Manipulation & Filtering\nDemonstrates strong understanding of filtering, grouping, and summarizing.\nShows good grasp with minor gaps.\nBasic filtering and grouping attempted but lacks depth.\nLittle to no meaningful data manipulation.\n\n\nInsight & Interpretation\nProvides thoughtful insights or observations where applicable.\nSome interpretation is present.\nMinimal interpretation or unclear reasoning.\nNo interpretation or irrelevant commentary.\n\n\nBonus Challenge (Q13–Q14)\nCompleted with correct logic and creative approach.\nAttempted with mostly correct logic.\nAttempted but contains errors or lacks clarity.\nNot attempted or incorrect.\n\n\nReproducibility\nCode runs without errors and produces expected results.\nMinor issues but generally reproducible.\nSome errors prevent full reproducibility.\nCode fails to run or produces major errors.",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Econ 148: Analytical and statistical packages for economics 1",
