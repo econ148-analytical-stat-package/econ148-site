@@ -6,58 +6,55 @@ title: ""
 
 **Course title**: Econ148: Analytical and statistical packages for economics 1 <br> **Instructor**: Christopher Llones <br> **Assignment**: E-commerce sales dataset analysis in R <br> **Due Date**: 15 October 2025
 
-
 ## Objective
 
 This assignment will strengthen your ability to analyze economic data using R. You’ll work with a synthetic but realistic dataset of e-commerce transactions from 2024–2025. Your goal is to apply `dplyr` and other relevant packages to explore sales patterns, profit margins, and regional trends.
 
-
 ## Instructions
 
-- Use R and the `dplyr` package to answer each question.
+-   Use R and the `dplyr` package to answer each question.
 
-- Submit your R script file (.R) with your code and outputs.
+-   Submit your R script file (.R) with your code and outputs.
 
-- Use the pipe operator (`%>%`) for all data manipulations.
+-   Use the pipe operator (`%>%`) for all data manipulations.
 
-- You may use additional packages like `ggplot2`, `lubridate`, or `stringr` if needed.
+-   You may use additional packages like `ggplot2`, `lubridate`, or `stringr` if needed.
 
-- Ensure your code is clean, commented, and reproducible.
+-   Ensure your code is clean, commented, and reproducible.
 
 ::: callout-tip
 ## Dataset and files
 
-1. Access the dataset and R script template from the [econ148-assignment1](https://drive.google.com/drive/folders/1C1XVB8nlHsHxFIAqPpmLK1OWE4yU0TFa?usp=sharing) folder.
+1.  Access the dataset and R script template from the [econ148-assignment1](https://drive.google.com/drive/folders/1C1XVB8nlHsHxFIAqPpmLK1OWE4yU0TFa?usp=sharing) folder.
 
-2. Submit your completed R script file (.R) by the due date and upload using this link: [Submission Link]().
+2.  Submit your completed R script file (.R) by the due date and upload using this link: [Submission Link](https://forms.gle/VvC71wM8g5PH3bzJ7).
 :::
-
 
 ## Questions
 
 **Part 1: Data familiarization**
 
-1. How many rows and columns are in the dataset?
+1.  How many rows and columns are in the dataset?
 
-2. List all unique product categories and sub-categories.
+2.  List all unique product categories and sub-categories.
 
-3. What are the earliest and latest order dates?
+3.  What are the earliest and latest order dates?
 
 **Part 2: sales and profit analysis**
 
-4. What is the total sales and total profit across all transactions?
+4.  What is the total sales and total profit across all transactions?
 
-5. Which region generated the highest total profit?
+5.  Which region generated the highest total profit?
 
-6. What is the average discount applied across all orders?
+6.  What is the average discount applied across all orders?
 
 **Part 3: produce performance**
 
-7. Which product had the highest total sales?
+7.  Which product had the highest total sales?
 
-8. Which sub-category had the lowest average profit per unit sold?
+8.  Which sub-category had the lowest average profit per unit sold?
 
-9. Identify the top 5 cities by total sales.
+9.  Identify the top 5 cities by total sales.
 
 **Part 4: time series and trend analysis**
 
@@ -67,14 +64,11 @@ This assignment will strengthen your ability to analyze economic data using R. Y
 
 12. Plot a time series of monthly sales using ggplot2.
 
-
 **Bonus Challenge**
 
 13. Create a new column for profit margin (profit as a percentage of sales). Then, find the average profit margin by region.
 
 14. Identify any product with a negative profit margin and explain possible reasons.
-
-
 
 ## Grading rubrics
 

@@ -77,7 +77,7 @@
     "section": "",
     "text": "Course title: Econ148: Analytical and statistical packages for economics 1  Instructor: Christopher Llones  Assignment: E-commerce sales dataset analysis in R  Due Date: 15 October 2025",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -88,7 +88,7 @@
     "section": "Objective",
     "text": "Objective\nThis assignment will strengthen your ability to analyze economic data using R. You’ll work with a synthetic but realistic dataset of e-commerce transactions from 2024–2025. Your goal is to apply dplyr and other relevant packages to explore sales patterns, profit margins, and regional trends.",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -99,7 +99,7 @@
     "section": "Instructions",
     "text": "Instructions\n\nUse R and the dplyr package to answer each question.\nSubmit your R script file (.R) with your code and outputs.\nUse the pipe operator (%&gt;%) for all data manipulations.\nYou may use additional packages like ggplot2, lubridate, or stringr if needed.\nEnsure your code is clean, commented, and reproducible.\n\n\n\n\n\n\n\nDataset and files\n\n\n\n\nAccess the dataset and R script template from the econ148-assignment1 folder.\nSubmit your completed R script file (.R) by the due date and upload using this link: Submission Link.",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -110,7 +110,7 @@
     "section": "Questions",
     "text": "Questions\nPart 1: Data familiarization\n\nHow many rows and columns are in the dataset?\nList all unique product categories and sub-categories.\nWhat are the earliest and latest order dates?\n\nPart 2: sales and profit analysis\n\nWhat is the total sales and total profit across all transactions?\nWhich region generated the highest total profit?\nWhat is the average discount applied across all orders?\n\nPart 3: produce performance\n\nWhich product had the highest total sales?\nWhich sub-category had the lowest average profit per unit sold?\nIdentify the top 5 cities by total sales.\n\nPart 4: time series and trend analysis\n\nGroup the data by month and summarize total sales and profit.\nWhich month had the highest sales volume?\nPlot a time series of monthly sales using ggplot2.\n\nBonus Challenge\n\nCreate a new column for profit margin (profit as a percentage of sales). Then, find the average profit margin by region.\nIdentify any product with a negative profit margin and explain possible reasons.",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -121,7 +121,7 @@
     "section": "Grading rubrics",
     "text": "Grading rubrics\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (5pts)\nGood (4pts)\nFair (2-3 pts)\nNeeds improvement (0-1 pt)\n\n\n\n\nCode accuracy\nAll answers are correct and match expected outputs.\nMost answers are correct with minor errors.\nSeveral answers are incorrect or incomplete.\nMany answers are missing or incorrect.\n\n\nUse of dplyr Functions\nConsistently uses appropriate dplyr verbs (filter, mutate, summarise, etc.).\nUses dplyr functions correctly in most cases.\nUses some dplyr functions but inconsistently or incorrectly.\nRarely uses dplyr or misuses functions.\n\n\nPipe Operator Usage (%&gt;%)\nPipe operator is used fluently and correctly throughout.\nMostly correct usage with occasional syntax issues.\nUsed sporadically or with frequent errors.\nNot used or used incorrectly.\n\n\nData Manipulation & Filtering\nDemonstrates strong understanding of filtering, grouping, and summarizing.\nShows good grasp with minor gaps.\nBasic filtering and grouping attempted but lacks depth.\nLittle to no meaningful data manipulation.\n\n\nInsight & Interpretation\nProvides thoughtful insights or observations where applicable.\nSome interpretation is present.\nMinimal interpretation or unclear reasoning.\nNo interpretation or irrelevant commentary.\n\n\nBonus Challenge (Q13–Q14)\nCompleted with correct logic and creative approach.\nAttempted with mostly correct logic.\nAttempted but contains errors or lacks clarity.\nNot attempted or incorrect.\n\n\nReproducibility\nCode runs without errors and produces expected results.\nMinor issues but generally reproducible.\nSome errors prevent full reproducibility.\nCode fails to run or produces major errors.",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
