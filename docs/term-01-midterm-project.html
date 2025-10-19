@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Module 1: Intro to R programming – Econ 148</title>
+<title>term-01-midterm-project – Econ 148</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,8 +29,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./m2-intro-data-viz-ggplot.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./01-assignment-1-e-commerce.html" rel="prev">
 <link href="./plot/econ148-hex-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -283,7 +247,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./m1-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./m1-intro-r.html">Module 1: Introduction to R programming</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./term-01-midterm-project.html">Midterm &amp; Final projects</a></li><li class="breadcrumb-item"><a href="./term-01-midterm-project.html">Midterm project: Earthquake and tsunami analysis</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -328,7 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./m1-intro-r.html" class="sidebar-item-text sidebar-link active">
+  <a href="./m1-intro-r.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 1: Introduction to R programming</span></a>
   </div>
 </li>
@@ -389,7 +353,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./term-01-midterm-project.html" class="sidebar-item-text sidebar-link">
+  <a href="./term-01-midterm-project.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Midterm project: Earthquake and tsunami analysis</span></a>
   </div>
 </li>
@@ -405,97 +369,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link active" data-scroll-target="#exercises">Exercises</a></li>
+  <li><a href="#scenario-interning-at-the-gloabl-risk-observatory-gro" id="toc-scenario-interning-at-the-gloabl-risk-observatory-gro" class="nav-link active" data-scroll-target="#scenario-interning-at-the-gloabl-risk-observatory-gro">Scenario: Interning at the Gloabl Risk Observatory (GRO)</a></li>
+  <li><a href="#your-mission-complete-the-following-tasks" id="toc-your-mission-complete-the-following-tasks" class="nav-link" data-scroll-target="#your-mission-complete-the-following-tasks">Your mission: Complete the following tasks:</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./m1-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./m1-intro-r.html">Module 1: Introduction to R programming</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Module 1: Intro to R programming</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./term-01-midterm-project.html">Midterm &amp; Final projects</a></li><li class="breadcrumb-item"><a href="./term-01-midterm-project.html">Midterm project: Earthquake and tsunami analysis</a></li></ol></nav></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
+<p><img src="plot/hr-analytics-banner.png" class="img-fluid"></p>
+<section id="scenario-interning-at-the-gloabl-risk-observatory-gro" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-interning-at-the-gloabl-risk-observatory-gro">Scenario: Interning at the Gloabl Risk Observatory (GRO)</h2>
+<p>You’ve just landed a midterm internship at the Global Risk Observatory (GRO), an international think tank that advises governments and humanitarian agencies on disaster preparedness and economic resilience. Your team is tasked with analyzing a newly released dataset: the Global Earthquake-Tsunami Risk Assessment Dataset, which contains seismic and tsunami-related data from 782 significant earthquakes worldwide between 2001 and 2022.</p>
+<p>Your supervisor has asked you to process and analyze this dataset using statistical and analytical packages (e.g., R, Python, Excel, or Stata) to generate insights that can inform economic policy, infrastructure investment, and early warning systems.</p>
+</section>
+<section id="your-mission-complete-the-following-tasks" class="level2">
+<h2 class="anchored" data-anchor-id="your-mission-complete-the-following-tasks">Your mission: Complete the following tasks:</h2>
+<p>Use <code>R</code> and <code>ggplot2</code> to complete each task. Submit your code and visual outputs with brief explanations.</p>
 <ol type="1">
-<li>R objects</li>
-<li>R packages</li>
-<li>Reading data in R</li>
-<li>Basic data wrangling</li>
+<li>📂 Load and Inspect the Dataset Load the CSV file into R.</li>
 </ol>
-<p><a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-01-intro-r" target="_blank" class="btn-slides">View slides in new window</a></p>
-<div class="box" style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
-<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-01-intro-r" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
-</iframe>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Presentation keyboard shortcuts
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<div class="text-line-space">
-<ul>
-<li>
-Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides
-</li>
-<li>
-Use <kbd>F</kbd> to toggle full screen
-</li>
-<li>
-Use <kbd>O</kbd> to view an overview of all slides
-</li>
-<li>
-Use <kbd>?</kbd> to see a list of other shortcuts
-</li>
-</ul>
-</div>
-</div>
-</div>
-<p><br></p>
-<section id="exercises" class="level2">
-<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
-<ol type="1">
-<li><p>Install <a href="https://cran.r-project.org/bin/windows/base/">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> on your computer.</p></li>
-<li><p>Download the entire folder <code>00-module-intro-r</code> from the <a href="https://drive.google.com/drive/folders/10EwKKO1SxHdZSWWO1ko2WUFIOIRZM0HU?usp=sharing">Google Drive link</a>. For the meantime, keep the folder in your computer and wait for further instructions during the class.</p></li>
-<li><p>Before the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.</p></li>
+<p>Use str(), summary(), and head() to inspect the structure and contents.</p>
+<p>Identify the number of tsunami vs.&nbsp;non-tsunami events.</p>
+<ol start="2" type="1">
+<li>📊 Earthquake Magnitude Distribution Create a histogram of earthquake magnitudes using ggplot2.</li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="do">## install required packages</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"janitor"</span>, <span class="st">"readxl"</span>, <span class="st">"haven"</span>, <span class="st">"tidyverse"</span>, <span class="st">"skimr"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Please make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.</p>
-</div>
-</div>
+<p>Add appropriate axis labels and title.</p>
+<p>Briefly describe the distribution.</p>
+<ol start="3" type="1">
+<li>🌊 Tsunami Event Proportion Create a bar chart showing the count of tsunami vs.&nbsp;non-tsunami events.</li>
+</ol>
+<p>Use ggplot2 and customize colors.</p>
+<p>What percentage of events are tsunami-related?</p>
+<ol start="4" type="1">
+<li>📅 Earthquake Frequency by Year Create a line plot showing the number of earthquakes per year.</li>
+</ol>
+<p>Use geom_line() or geom_col() with year as the x-axis.</p>
+<p>Identify any years with spikes in activity.</p>
+<ol start="5" type="1">
+<li>🗺️ Latitude vs.&nbsp;Longitude Plot Create a scatter plot of earthquake epicenters using latitude and longitude.</li>
+</ol>
+<p>Color-code points by tsunami potential (0 or 1).</p>
+<p>What regions appear most tsunami-prone?</p>
+<ol start="6" type="1">
+<li>📈 Depth vs.&nbsp;Magnitude Create a scatter plot of earthquake depth vs.&nbsp;magnitude.</li>
+</ol>
+<p>Use color or shape to distinguish tsunami events.</p>
+<p>Discuss any patterns you observe.</p>
+<ol start="7" type="1">
+<li>🧮 Intensity Comparison Use boxplots to compare cdi (Community Decimal Intensity) between tsunami and non-tsunami events.</li>
+</ol>
+<p>What does this suggest about population impact?</p>
+<ol start="8" type="1">
+<li>🧾 Annotated Insight Choose one plot and add annotations using geom_text() or geom_label() to highlight key insights.</li>
+</ol>
+<p>Explain why this insight matters for economic planning.</p>
+<ol start="9" type="1">
+<li>📦 Save Your Visuals Save at least three plots as PNG files using ggsave().</li>
+</ol>
+<p>Include filenames and dimensions in your code.</p>
+<ol start="10" type="1">
+<li>📝 Reflection Write a short reflection (150–200 words) on how data visualization can support disaster resilience and economic decision-making.</li>
+</ol>
 
 
 </section>
@@ -915,14 +854,11 @@ Important
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Home">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
+      <a href="./01-assignment-1-e-commerce.html" class="pagination-link" aria-label="Module 1 assignment">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Module 1 assignment</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./m2-intro-data-viz-ggplot.html" class="pagination-link" aria-label="Module 2: Intro to data visualization using ggplot2">
-        <span class="nav-page-text">Module 2: Intro to data visualization using ggplot2</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

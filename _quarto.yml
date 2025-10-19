@@ -42,6 +42,10 @@ website:
         contents:
           - href: "01-assignment-1-e-commerce.qmd"
             text: "Module 1 assignment"
+      - section: "Midterm & Final projects"
+        contents:
+          - href: "term-01-midterm-project.qmd"
+            text: "Midterm project: Earthquake and tsunami analysis"
           
 
 format:

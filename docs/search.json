@@ -170,5 +170,38 @@
     "title": "Module 6: Tests on means and chi-square test",
     "section": "",
     "text": "Introduction to hypothesis testing\nParametric vs non-parametric tests\nIndependent samples t-test\nPaired samples t-test\nOne-way ANOVA\nChi-square test\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+  },
+  {
+    "objectID": "term-01-midterm-project.html#scenario-interning-at-the-gloabl-risk-observatory-gro",
+    "href": "term-01-midterm-project.html#scenario-interning-at-the-gloabl-risk-observatory-gro",
+    "title": "Econ 148",
+    "section": "Scenario: Interning at the Gloabl Risk Observatory (GRO)",
+    "text": "Scenario: Interning at the Gloabl Risk Observatory (GRO)\nYou’ve just landed a midterm internship at the Global Risk Observatory (GRO), an international think tank that advises governments and humanitarian agencies on disaster preparedness and economic resilience. Your team is tasked with analyzing a newly released dataset: the Global Earthquake-Tsunami Risk Assessment Dataset, which contains seismic and tsunami-related data from 782 significant earthquakes worldwide between 2001 and 2022.\nYour supervisor has asked you to process and analyze this dataset using statistical and analytical packages (e.g., R, Python, Excel, or Stata) to generate insights that can inform economic policy, infrastructure investment, and early warning systems.",
+    "crumbs": [
+      "Midterm & Final projects",
+      "Midterm project: Earthquake and tsunami analysis"
+    ]
+  },
+  {
+    "objectID": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
+    "href": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
+    "title": "Econ 148",
+    "section": "Your mission: Complete the following tasks:",
+    "text": "Your mission: Complete the following tasks:\nUse R and ggplot2 to complete each task. Submit your code and visual outputs with brief explanations.\n\n📂 Load and Inspect the Dataset Load the CSV file into R.\n\nUse str(), summary(), and head() to inspect the structure and contents.\nIdentify the number of tsunami vs. non-tsunami events.\n\n📊 Earthquake Magnitude Distribution Create a histogram of earthquake magnitudes using ggplot2.\n\nAdd appropriate axis labels and title.\nBriefly describe the distribution.\n\n🌊 Tsunami Event Proportion Create a bar chart showing the count of tsunami vs. non-tsunami events.\n\nUse ggplot2 and customize colors.\nWhat percentage of events are tsunami-related?\n\n📅 Earthquake Frequency by Year Create a line plot showing the number of earthquakes per year.\n\nUse geom_line() or geom_col() with year as the x-axis.\nIdentify any years with spikes in activity.\n\n🗺️ Latitude vs. Longitude Plot Create a scatter plot of earthquake epicenters using latitude and longitude.\n\nColor-code points by tsunami potential (0 or 1).\nWhat regions appear most tsunami-prone?\n\n📈 Depth vs. Magnitude Create a scatter plot of earthquake depth vs. magnitude.\n\nUse color or shape to distinguish tsunami events.\nDiscuss any patterns you observe.\n\n🧮 Intensity Comparison Use boxplots to compare cdi (Community Decimal Intensity) between tsunami and non-tsunami events.\n\nWhat does this suggest about population impact?\n\n🧾 Annotated Insight Choose one plot and add annotations using geom_text() or geom_label() to highlight key insights.\n\nExplain why this insight matters for economic planning.\n\n📦 Save Your Visuals Save at least three plots as PNG files using ggsave().\n\nInclude filenames and dimensions in your code.\n\n📝 Reflection Write a short reflection (150–200 words) on how data visualization can support disaster resilience and economic decision-making.",
+    "crumbs": [
+      "Midterm & Final projects",
+      "Midterm project: Earthquake and tsunami analysis"
+    ]
+  },
+  {
+    "objectID": "term-01-midterm-project.html#scenario-interning-at-the-global-risk-observatory-gro",
+    "href": "term-01-midterm-project.html#scenario-interning-at-the-global-risk-observatory-gro",
+    "title": "Econ 148",
+    "section": "Scenario: Interning at the Global Risk Observatory (GRO)",
+    "text": "Scenario: Interning at the Global Risk Observatory (GRO)\nYou’ve just landed a midterm internship at the Global Risk Observatory (GRO), an international think tank that advises governments and humanitarian agencies on disaster preparedness and economic resilience. Your team is tasked with analyzing a newly released dataset: the Global Earthquake-Tsunami Risk Assessment Dataset, which contains seismic and tsunami-related data from 782 significant earthquakes worldwide between 2001 and 2022.\nYour supervisor has asked you to process and analyze this dataset using statistical and analytical packages (e.g., R, Python, Excel, or Stata) to generate insights that can inform economic policy, infrastructure investment, and early warning systems.",
+    "crumbs": [
+      "Midterm & Final projects",
+      "Midterm project: Earthquake and tsunami analysis"
+    ]
   }
 ]
