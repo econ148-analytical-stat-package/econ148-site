@@ -2,50 +2,50 @@
 title: ""
 ---
 
-![](plot/hr-analytics-banner.png)
+![](plot/econ148-midterm-project.jpg)
 
 ## Scenario: Interning at the Global Risk Observatory (GRO)
 
 You’ve just landed a midterm internship at the Global Risk Observatory (GRO), an international think tank that advises governments and humanitarian agencies on disaster preparedness and economic resilience. Your team is tasked with analyzing a newly released dataset: the Global Earthquake-Tsunami Risk Assessment Dataset, which contains seismic and tsunami-related data from 782 significant earthquakes worldwide between 2001 and 2022.
 
-Your supervisor has asked you to process and analyze this dataset using statistical and analytical packages (e.g., R, Python, Excel, or Stata) to generate insights that can inform economic policy, infrastructure investment, and early warning systems.
+Your supervisor has asked you to process and analyze this dataset using the R programming to generate insights that can inform economic policy, infrastructure investment, and early warning systems.
 
 ## Your mission: Complete the following tasks:
 
 Use `R` and `ggplot2` to complete each task. Submit your code and visual outputs with brief explanations.
 
-1.  📂 Load and Inspect the Dataset
+1.  **Load and Inspect the Dataset**
     -   Load the CSV file into R.
     -   Use `str()`, `summary()`, and `head()` to inspect the structure and contents.
     -   Identify the number of tsunami vs. non-tsunami events.
-2.  📊 Earthquake Magnitude Distribution
+2.  **Earthquake Magnitude Distribution**
     -   Create a histogram of earthquake magnitudes using `ggplot2`
     -   Add appropriate axis labels and title.
     -   Briefly describe the distribution.
-3.  🌊 Tsunami Event Proportion
+3.  **Tsunami Event Proportion**
     -   Create a bar chart showing the count of tsunami vs. non-tsunami events.
     -   Use `ggplot2` and customize colors.
     -   What percentage of events are tsunami-related?
-4.  📅 Earthquake Frequency by Year
+4.  **Earthquake Frequency by Year**
     -   Create a line plot showing the number of earthquakes per year.
     -   Use `geom_line()` or `geom_col()` with year as the x-axis
     -   Identify any years with spikes in activity.
-5.  🗺️ Latitude vs. Longitude Plot
+5.  **Latitude vs. Longitude Plot**
     -   Create a scatter plot of earthquake epicenters using latitude and longitude.
     -   Color-code points by tsunami potential (0 or 1).
     -   What regions appear most tsunami-prone?
-6.  📈 Depth vs. Magnitude
+6.  **Depth vs. Magnitude**
     -   Create a scatter plot of earthquake depth vs. magnitude
     -   Use color or shape to distinguish tsunami events.
     -   Discuss any patterns you observe.
-7.  🧮 Intensity Comparison
+7.  **Intensity Comparison**
     -   Use boxplots to compare cdi (Community Decimal Intensity) between tsunami and non-tsunami events.
     -   What does this suggest about population impact?
-8.  🧾 Annotated Insight
+8.  **Annotated Insight**
     -   Choose one plot and add annotations using `geom_text()` or `geom_label()` to highlight key insights.
     -   Explain why this insight matters for economic planning.
-9.  📦 Save Your Visuals
+9.  **Save Your Visuals**
     -   Save at least three plots as PNG files using `ggsave()`.
     -   Include filenames and dimensions in your code.
-10. 📝 Reflection
+10. **Reflection**
     -   Write a short reflection (150–200 words) on how data visualization can support disaster resilience and economic decision-making.
