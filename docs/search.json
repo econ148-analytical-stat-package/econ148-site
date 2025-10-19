@@ -4,33 +4,21 @@
     "href": "term-01-midterm-project.html#scenario-interning-at-the-global-risk-observatory-gro",
     "title": "Econ 148",
     "section": "Scenario: Interning at the Global Risk Observatory (GRO)",
-    "text": "Scenario: Interning at the Global Risk Observatory (GRO)\nYou’ve just landed a midterm internship at the Global Risk Observatory (GRO), an international think tank that advises governments and humanitarian agencies on disaster preparedness and economic resilience. Your team is tasked with analyzing a newly released dataset: the Global Earthquake-Tsunami Risk Assessment Dataset, which contains seismic and tsunami-related data from 782 significant earthquakes worldwide between 2001 and 2022.\nYour supervisor has asked you to process and analyze this dataset using the R programming to generate insights that can inform economic policy, infrastructure investment, and early warning systems.",
-    "crumbs": [
-      "Midterm & Final projects",
-      "Midterm project: Earthquake and tsunami analysis"
-    ]
+    "text": "Scenario: Interning at the Global Risk Observatory (GRO)\nYou’ve just landed a midterm internship at the Global Risk Observatory (GRO), an international think tank that advises governments and humanitarian agencies on disaster preparedness and economic resilience. Your team is tasked with analyzing a newly released dataset: the Global Earthquake-Tsunami Risk Assessment Dataset, which contains seismic and tsunami-related data from 782 significant earthquakes worldwide between 2001 and 2022.\nYour supervisor has asked you to process and analyze this dataset using the R programming to generate insights that can inform economic policy, infrastructure investment, and early warning systems."
   },
   {
     "objectID": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
     "href": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
     "title": "Econ 148",
     "section": "Your mission: complete the following tasks:",
-    "text": "Your mission: complete the following tasks:\nUse R and ggplot2 to complete each task. Submit your code and visual outputs with brief explanations.\n\nLoad and inspect the Dataset\n\nLoad the CSV file into R.\nUse str(), summary(), and head() to inspect the structure and contents.\nIdentify the number of tsunami vs. non-tsunami events.\n\nEarthquake magnitude distribution\n\nCreate a histogram of earthquake magnitudes using ggplot2\nAdd appropriate axis labels and title.\nBriefly describe the distribution.\n\nTsunami event proportion\n\nCreate a bar chart showing the count of tsunami vs. non-tsunami events.\nUse ggplot2 and customize colors.\nWhat percentage of events are tsunami-related?\n\nEarthquake frequency by year\n\nCreate a line plot showing the number of earthquakes per year.\nUse geom_line() or geom_col() with year as the x-axis\nIdentify any years with spikes in activity.\n\nLatitude vs. longitude plot\n\nCreate a scatter plot of earthquake epicenters using latitude and longitude.\nColor-code points by tsunami potential (0 or 1).\nWhat regions appear most tsunami-prone?\n\nDepth vs. magnitude\n\nCreate a scatter plot of earthquake depth vs. magnitude\nUse color or shape to distinguish tsunami events.\nDiscuss any patterns you observe.\n\nIntensity comparison\n\nUse boxplots to compare cdi (Community Decimal Intensity) between tsunami and non-tsunami events.\nWhat does this suggest about population impact?\n\nAnnotated insight\n\nChoose one plot and add annotations using geom_text() or geom_label() to highlight key insights.\nExplain why this insight matters for economic planning.\n\nSave your visuals\n\nSave at least three plots as PNG files using ggsave().\nInclude filenames and dimensions in your code.\n\nReflection\n\nWrite a short reflection (150–200 words) on how data visualization can support disaster resilience and economic decision-making.",
-    "crumbs": [
-      "Midterm & Final projects",
-      "Midterm project: Earthquake and tsunami analysis"
-    ]
+    "text": "Your mission: complete the following tasks:\nUse R and ggplot2 to complete each task. Submit your code and visual outputs with brief explanations.\n\nLoad and inspect the Dataset\n\nLoad the CSV file into R.\nUse str(), summary(), and head() to inspect the structure and contents.\nIdentify the number of tsunami vs. non-tsunami events.\n\nEarthquake magnitude distribution\n\nCreate a histogram of earthquake magnitudes using ggplot2\nAdd appropriate axis labels and title.\nBriefly describe the distribution.\n\nTsunami event proportion\n\nCreate a bar chart showing the count of tsunami vs. non-tsunami events.\nUse ggplot2 and customize colors.\nWhat percentage of events are tsunami-related?\n\nEarthquake frequency by year\n\nCreate a line plot showing the number of earthquakes per year.\nUse geom_line() or geom_col() with year as the x-axis\nIdentify any years with spikes in activity.\n\nLatitude vs. longitude plot\n\nCreate a scatter plot of earthquake epicenters using latitude and longitude.\nColor-code points by tsunami potential (0 or 1).\nWhat regions appear most tsunami-prone?\n\nDepth vs. magnitude\n\nCreate a scatter plot of earthquake depth vs. magnitude\nUse color or shape to distinguish tsunami events.\nDiscuss any patterns you observe.\n\nIntensity comparison\n\nUse boxplots to compare cdi (Community Decimal Intensity) between tsunami and non-tsunami events.\nWhat does this suggest about population impact?\n\nAnnotated insight\n\nChoose one plot and add annotations using geom_text() or geom_label() to highlight key insights.\nExplain why this insight matters for economic planning.\n\nSave your visuals\n\nSave at least three plots as PNG files using ggsave().\nInclude filenames and dimensions in your code.\n\nReflection\n\nWrite a short reflection (150–200 words) on how data visualization can support disaster resilience and economic decision-making."
   },
   {
     "objectID": "term-01-midterm-project.html#submission",
     "href": "term-01-midterm-project.html#submission",
     "title": "Econ 148",
     "section": "Submission:",
-    "text": "Submission:",
-    "crumbs": [
-      "Midterm & Final projects",
-      "Midterm project: Earthquake and tsunami analysis"
-    ]
+    "text": "Submission:"
   },
   {
     "objectID": "m6-test-means.html",
