@@ -369,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#scenario-interning-at-the-gloabl-risk-observatory-gro" id="toc-scenario-interning-at-the-gloabl-risk-observatory-gro" class="nav-link active" data-scroll-target="#scenario-interning-at-the-gloabl-risk-observatory-gro">Scenario: Interning at the Gloabl Risk Observatory (GRO)</a></li>
+  <li><a href="#scenario-interning-at-the-global-risk-observatory-gro" id="toc-scenario-interning-at-the-global-risk-observatory-gro" class="nav-link active" data-scroll-target="#scenario-interning-at-the-global-risk-observatory-gro">Scenario: Interning at the Global Risk Observatory (GRO)</a></li>
   <li><a href="#your-mission-complete-the-following-tasks" id="toc-your-mission-complete-the-following-tasks" class="nav-link" data-scroll-target="#your-mission-complete-the-following-tasks">Your mission: Complete the following tasks:</a></li>
   </ul>
 </nav>
@@ -382,8 +382,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="plot/hr-analytics-banner.png" class="img-fluid"></p>
-<section id="scenario-interning-at-the-gloabl-risk-observatory-gro" class="level2">
-<h2 class="anchored" data-anchor-id="scenario-interning-at-the-gloabl-risk-observatory-gro">Scenario: Interning at the Gloabl Risk Observatory (GRO)</h2>
+<section id="scenario-interning-at-the-global-risk-observatory-gro" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-interning-at-the-global-risk-observatory-gro">Scenario: Interning at the Global Risk Observatory (GRO)</h2>
 <p>You’ve just landed a midterm internship at the Global Risk Observatory (GRO), an international think tank that advises governments and humanitarian agencies on disaster preparedness and economic resilience. Your team is tasked with analyzing a newly released dataset: the Global Earthquake-Tsunami Risk Assessment Dataset, which contains seismic and tsunami-related data from 782 significant earthquakes worldwide between 2001 and 2022.</p>
 <p>Your supervisor has asked you to process and analyze this dataset using statistical and analytical packages (e.g., R, Python, Excel, or Stata) to generate insights that can inform economic policy, infrastructure investment, and early warning systems.</p>
 </section>
@@ -391,49 +391,61 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="your-mission-complete-the-following-tasks">Your mission: Complete the following tasks:</h2>
 <p>Use <code>R</code> and <code>ggplot2</code> to complete each task. Submit your code and visual outputs with brief explanations.</p>
 <ol type="1">
-<li>📂 Load and Inspect the Dataset Load the CSV file into R.</li>
-</ol>
-<p>Use str(), summary(), and head() to inspect the structure and contents.</p>
-<p>Identify the number of tsunami vs.&nbsp;non-tsunami events.</p>
-<ol start="2" type="1">
-<li>📊 Earthquake Magnitude Distribution Create a histogram of earthquake magnitudes using ggplot2.</li>
-</ol>
-<p>Add appropriate axis labels and title.</p>
-<p>Briefly describe the distribution.</p>
-<ol start="3" type="1">
-<li>🌊 Tsunami Event Proportion Create a bar chart showing the count of tsunami vs.&nbsp;non-tsunami events.</li>
-</ol>
-<p>Use ggplot2 and customize colors.</p>
-<p>What percentage of events are tsunami-related?</p>
-<ol start="4" type="1">
-<li>📅 Earthquake Frequency by Year Create a line plot showing the number of earthquakes per year.</li>
-</ol>
-<p>Use geom_line() or geom_col() with year as the x-axis.</p>
-<p>Identify any years with spikes in activity.</p>
-<ol start="5" type="1">
-<li>🗺️ Latitude vs.&nbsp;Longitude Plot Create a scatter plot of earthquake epicenters using latitude and longitude.</li>
-</ol>
-<p>Color-code points by tsunami potential (0 or 1).</p>
-<p>What regions appear most tsunami-prone?</p>
-<ol start="6" type="1">
-<li>📈 Depth vs.&nbsp;Magnitude Create a scatter plot of earthquake depth vs.&nbsp;magnitude.</li>
-</ol>
-<p>Use color or shape to distinguish tsunami events.</p>
-<p>Discuss any patterns you observe.</p>
-<ol start="7" type="1">
-<li>🧮 Intensity Comparison Use boxplots to compare cdi (Community Decimal Intensity) between tsunami and non-tsunami events.</li>
-</ol>
-<p>What does this suggest about population impact?</p>
-<ol start="8" type="1">
-<li>🧾 Annotated Insight Choose one plot and add annotations using geom_text() or geom_label() to highlight key insights.</li>
-</ol>
-<p>Explain why this insight matters for economic planning.</p>
-<ol start="9" type="1">
-<li>📦 Save Your Visuals Save at least three plots as PNG files using ggsave().</li>
-</ol>
-<p>Include filenames and dimensions in your code.</p>
-<ol start="10" type="1">
-<li>📝 Reflection Write a short reflection (150–200 words) on how data visualization can support disaster resilience and economic decision-making.</li>
+<li>📂 Load and Inspect the Dataset
+<ul>
+<li>Load the CSV file into R.</li>
+<li>Use <code>str()</code>, <code>summary()</code>, and <code>head()</code> to inspect the structure and contents.</li>
+<li>Identify the number of tsunami vs.&nbsp;non-tsunami events.</li>
+</ul></li>
+<li>📊 Earthquake Magnitude Distribution
+<ul>
+<li>Create a histogram of earthquake magnitudes using <code>ggplot2</code></li>
+<li>Add appropriate axis labels and title.</li>
+<li>Briefly describe the distribution.</li>
+</ul></li>
+<li>🌊 Tsunami Event Proportion
+<ul>
+<li>Create a bar chart showing the count of tsunami vs.&nbsp;non-tsunami events.</li>
+<li>Use <code>ggplot2</code> and customize colors.</li>
+<li>What percentage of events are tsunami-related?</li>
+</ul></li>
+<li>📅 Earthquake Frequency by Year
+<ul>
+<li>Create a line plot showing the number of earthquakes per year.</li>
+<li>Use <code>geom_line()</code> or <code>geom_col()</code> with year as the x-axis</li>
+<li>Identify any years with spikes in activity.</li>
+</ul></li>
+<li>🗺️ Latitude vs.&nbsp;Longitude Plot
+<ul>
+<li>Create a scatter plot of earthquake epicenters using latitude and longitude.</li>
+<li>Color-code points by tsunami potential (0 or 1).</li>
+<li>What regions appear most tsunami-prone?</li>
+</ul></li>
+<li>📈 Depth vs.&nbsp;Magnitude
+<ul>
+<li>Create a scatter plot of earthquake depth vs.&nbsp;magnitude</li>
+<li>Use color or shape to distinguish tsunami events.</li>
+<li>Discuss any patterns you observe.</li>
+</ul></li>
+<li>🧮 Intensity Comparison
+<ul>
+<li>Use boxplots to compare cdi (Community Decimal Intensity) between tsunami and non-tsunami events.</li>
+<li>What does this suggest about population impact?</li>
+</ul></li>
+<li>🧾 Annotated Insight
+<ul>
+<li>Choose one plot and add annotations using <code>geom_text()</code> or <code>geom_label()</code> to highlight key insights.</li>
+<li>Explain why this insight matters for economic planning.</li>
+</ul></li>
+<li>📦 Save Your Visuals
+<ul>
+<li>Save at least three plots as PNG files using <code>ggsave()</code>.</li>
+<li>Include filenames and dimensions in your code.</li>
+</ul></li>
+<li>📝 Reflection
+<ul>
+<li>Write a short reflection (150–200 words) on how data visualization can support disaster resilience and economic decision-making.</li>
+</ul></li>
 </ol>
 
 
