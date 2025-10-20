@@ -33,11 +33,15 @@
     ]
   },
   {
-    "objectID": "term-01-midterm-project.html#submission",
-    "href": "term-01-midterm-project.html#submission",
+    "objectID": "term-01-midterm-project.html#midterm-files-and-submission",
+    "href": "term-01-midterm-project.html#midterm-files-and-submission",
     "title": "Econ 148",
-    "section": "Submission:",
-    "text": "Submission:"
+    "section": "Midterm files and submission:",
+    "text": "Midterm files and submission:\n\nAccess the midterm R script and dataset from this link: Midterm Project Files\nSubmit your midterm exam answer sheet (R script with code, plots, and explanations) via google form: Midterm Submission Form\nDeadline: November 3, 2025, 11:59 PM PST",
+    "crumbs": [
+      "Midterm & Final projects",
+      "Midterm project: Earthquake and tsunami analysis"
+    ]
   },
   {
     "objectID": "m6-test-means.html",
@@ -210,16 +214,5 @@
     "title": "Module 5: exploratory data analysis",
     "section": "",
     "text": "Overview of EDA\nCentrality and variability\nAmounts and proportions\nComparisons\nTrends\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
-  },
-  {
-    "objectID": "term-01-midterm-project.html#midterm-files-and-submission",
-    "href": "term-01-midterm-project.html#midterm-files-and-submission",
-    "title": "Econ 148",
-    "section": "Midterm files and submission:",
-    "text": "Midterm files and submission:\n\nAccess the midterm R script and dataset from this link: Midterm Project Files\nSubmission link will be provided 5 days before the deadline.\nDeadline: November 3, 2025, 11:59 PM PST",
-    "crumbs": [
-      "Midterm & Final projects",
-      "Midterm project: Earthquake and tsunami analysis"
-    ]
   }
 ]

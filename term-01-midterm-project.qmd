@@ -83,6 +83,6 @@ Use `R` and `ggplot2` to complete each task. Submit your code and visual outputs
 
 1. Access the midterm R script and dataset from this link: [Midterm Project Files](https://drive.google.com/drive/folders/1xhs3hcCCBiOaKT59_t1KYi4767O_Db5Q?usp=sharing)
 
-2. Submission link will be provided 5 days before the deadline.
+2. Submit your midterm exam answer sheet (R script with code, plots, and explanations) via google form: [Midterm Submission Form](https://forms.gle/oWK2mZaXtkVf2b526) 
 
 3. Deadline: **November 3, 2025, 11:59 PM PST**
