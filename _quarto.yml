@@ -44,7 +44,7 @@ website:
             text: "Module 1 assignment"
       - section: "Midterm & Final projects"
         contents:
-          - href: ""
+          - href: "term-01-midterm-project.qmd"
             text: "Midterm project: Earthquake and tsunami analysis"
           
 

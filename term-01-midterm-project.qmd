@@ -10,6 +10,35 @@ You’ve just landed a midterm internship at the Global Risk Observatory (GRO), 
 
 Your supervisor has asked you to process and analyze this dataset using the R programming to generate insights that can inform economic policy, infrastructure investment, and early warning systems.
 
+## Dataset Description
+
+```{r}
+#| echo: false
+
+library(tibble)
+library(knitr)
+
+var_meta <- tibble::tribble(
+  ~Feature, ~Type, ~Description, ~`Range / Values`, ~`Tsunami relevance`,
+  "magnitude", "Float", "Earthquake magnitude (Richter scale)", "6.5 - 9.1", "High — Primary tsunami predictor",
+  "cdi", "Integer", "Community Decimal Intensity (felt intensity)", "0 - 9", "Medium — Population impact measure",
+  "mmi", "Integer", "Modified Mercalli Intensity (instrumental)", "1 - 9", "Medium — Structural damage indicator",
+  "sig", "Integer", "Event significance score", "650 - 2910", "High — Overall hazard assessment",
+  "nst", "Integer", "Number of seismic monitoring stations", "0 - 934", "Low — Data quality indicator",
+  "dmin", "Float", "Distance to nearest seismic station (degrees)", "0.0 - 17.7", "Low — Location precision",
+  "gap", "Float", "Azimuthal gap between stations (degrees)", "0.0 - 239.0", "Low — Location reliability",
+  "depth", "Float", "Earthquake focal depth (km)", "2.7 - 670.8", "High — Shallow = higher tsunami risk",
+  "latitude", "Float", "Epicenter latitude (WGS84)", "−61.85° to 71.63°", "High — Ocean proximity indicator",
+  "longitude", "Float", "Epicenter longitude (WGS84)", "−179.97° to 179.66°", "High — Ocean proximity indicator",
+  "Year", "Integer", "Year of occurrence", "2001 - 2022", "Medium — Temporal patterns",
+  "Month", "Integer", "Month of occurrence", "1 - 12", "Low — Seasonal analysis",
+  "tsunami", "Binary", "Tsunami potential (TARGET)", "0, 1", "Target variable"
+)
+
+knitr::kable(var_meta, caption = "Variable metadata and tsunami relevance")
+
+```
+
 ## Your mission: complete the following tasks:
 
 Use `R` and `ggplot2` to complete each task. Submit your code and visual outputs with brief explanations.
@@ -50,4 +79,10 @@ Use `R` and `ggplot2` to complete each task. Submit your code and visual outputs
 10. **Reflection**
     -   Write a short reflection (150–200 words) on how data visualization can support disaster resilience and economic decision-making.
 
-## Submission:
+## Midterm files and submission:
+
+1. Access the midterm R script and dataset from this link: [Midterm Project Files](https://drive.google.com/drive/folders/1xhs3hcCCBiOaKT59_t1KYi4767O_Db5Q?usp=sharing)
+
+2. Submission link will be provided 5 days before the deadline.
+
+3. Deadline: **November 3, 2025, 11:59 PM PST**

@@ -29,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./01-assignment-1-e-commerce.html" rel="prev">
 <link href="./plot/econ148-hex-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -246,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./term-01-midterm-project.html">Midterm &amp; Final projects</a></li><li class="breadcrumb-item"><a href="./term-01-midterm-project.html">Midterm project: Earthquake and tsunami analysis</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -351,8 +352,11 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">Midterm project: Earthquake and tsunami analysis</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./term-01-midterm-project.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Midterm project: Earthquake and tsunami analysis</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -366,13 +370,14 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#scenario-interning-at-the-global-risk-observatory-gro" id="toc-scenario-interning-at-the-global-risk-observatory-gro" class="nav-link active" data-scroll-target="#scenario-interning-at-the-global-risk-observatory-gro">Scenario: Interning at the Global Risk Observatory (GRO)</a></li>
+  <li><a href="#dataset-description" id="toc-dataset-description" class="nav-link" data-scroll-target="#dataset-description">Dataset Description</a></li>
   <li><a href="#your-mission-complete-the-following-tasks" id="toc-your-mission-complete-the-following-tasks" class="nav-link" data-scroll-target="#your-mission-complete-the-following-tasks">Your mission: complete the following tasks:</a></li>
-  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission:</a></li>
+  <li><a href="#midterm-files-and-submission" id="toc-midterm-files-and-submission" class="nav-link" data-scroll-target="#midterm-files-and-submission">Midterm files and submission:</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./term-01-midterm-project.html">Midterm &amp; Final projects</a></li><li class="breadcrumb-item"><a href="./term-01-midterm-project.html">Midterm project: Earthquake and tsunami analysis</a></li></ol></nav></header>
 
 
 
@@ -383,6 +388,125 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="scenario-interning-at-the-global-risk-observatory-gro">Scenario: Interning at the Global Risk Observatory (GRO)</h2>
 <p>You’ve just landed a midterm internship at the Global Risk Observatory (GRO), an international think tank that advises governments and humanitarian agencies on disaster preparedness and economic resilience. Your team is tasked with analyzing a newly released dataset: the Global Earthquake-Tsunami Risk Assessment Dataset, which contains seismic and tsunami-related data from 782 significant earthquakes worldwide between 2001 and 2022.</p>
 <p>Your supervisor has asked you to process and analyze this dataset using the R programming to generate insights that can inform economic policy, infrastructure investment, and early warning systems.</p>
+</section>
+<section id="dataset-description" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-description">Dataset Description</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Variable metadata and tsunami relevance</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 38%">
+<col style="width: 16%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Range / Values</th>
+<th style="text-align: left;">Tsunami relevance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">magnitude</td>
+<td style="text-align: left;">Float</td>
+<td style="text-align: left;">Earthquake magnitude (Richter scale)</td>
+<td style="text-align: left;">6.5 - 9.1</td>
+<td style="text-align: left;">High — Primary tsunami predictor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">cdi</td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Community Decimal Intensity (felt intensity)</td>
+<td style="text-align: left;">0 - 9</td>
+<td style="text-align: left;">Medium — Population impact measure</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">mmi</td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Modified Mercalli Intensity (instrumental)</td>
+<td style="text-align: left;">1 - 9</td>
+<td style="text-align: left;">Medium — Structural damage indicator</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sig</td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Event significance score</td>
+<td style="text-align: left;">650 - 2910</td>
+<td style="text-align: left;">High — Overall hazard assessment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">nst</td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Number of seismic monitoring stations</td>
+<td style="text-align: left;">0 - 934</td>
+<td style="text-align: left;">Low — Data quality indicator</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dmin</td>
+<td style="text-align: left;">Float</td>
+<td style="text-align: left;">Distance to nearest seismic station (degrees)</td>
+<td style="text-align: left;">0.0 - 17.7</td>
+<td style="text-align: left;">Low — Location precision</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">gap</td>
+<td style="text-align: left;">Float</td>
+<td style="text-align: left;">Azimuthal gap between stations (degrees)</td>
+<td style="text-align: left;">0.0 - 239.0</td>
+<td style="text-align: left;">Low — Location reliability</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">depth</td>
+<td style="text-align: left;">Float</td>
+<td style="text-align: left;">Earthquake focal depth (km)</td>
+<td style="text-align: left;">2.7 - 670.8</td>
+<td style="text-align: left;">High — Shallow = higher tsunami risk</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">latitude</td>
+<td style="text-align: left;">Float</td>
+<td style="text-align: left;">Epicenter latitude (WGS84)</td>
+<td style="text-align: left;">−61.85° to 71.63°</td>
+<td style="text-align: left;">High — Ocean proximity indicator</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">longitude</td>
+<td style="text-align: left;">Float</td>
+<td style="text-align: left;">Epicenter longitude (WGS84)</td>
+<td style="text-align: left;">−179.97° to 179.66°</td>
+<td style="text-align: left;">High — Ocean proximity indicator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Year</td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Year of occurrence</td>
+<td style="text-align: left;">2001 - 2022</td>
+<td style="text-align: left;">Medium — Temporal patterns</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Month</td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Month of occurrence</td>
+<td style="text-align: left;">1 - 12</td>
+<td style="text-align: left;">Low — Seasonal analysis</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">tsunami</td>
+<td style="text-align: left;">Binary</td>
+<td style="text-align: left;">Tsunami potential (TARGET)</td>
+<td style="text-align: left;">0, 1</td>
+<td style="text-align: left;">Target variable</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </section>
 <section id="your-mission-complete-the-following-tasks" class="level2">
 <h2 class="anchored" data-anchor-id="your-mission-complete-the-following-tasks">Your mission: complete the following tasks:</h2>
@@ -445,8 +569,13 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ol>
 </section>
-<section id="submission" class="level2">
-<h2 class="anchored" data-anchor-id="submission">Submission:</h2>
+<section id="midterm-files-and-submission" class="level2">
+<h2 class="anchored" data-anchor-id="midterm-files-and-submission">Midterm files and submission:</h2>
+<ol type="1">
+<li><p>Access the midterm R script and dataset from this link: <a href="https://drive.google.com/drive/folders/1xhs3hcCCBiOaKT59_t1KYi4767O_Db5Q?usp=sharing">Midterm Project Files</a></p></li>
+<li><p>Submission link will be provided 5 days before the deadline.</p></li>
+<li><p>Deadline: <strong>November 3, 2025, 11:59 PM PST</strong></p></li>
+</ol>
 
 
 </section>
@@ -864,6 +993,15 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./01-assignment-1-e-commerce.html" class="pagination-link" aria-label="Module 1 assignment">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Module 1 assignment</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
