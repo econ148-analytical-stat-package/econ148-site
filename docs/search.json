@@ -206,7 +206,11 @@
     "href": "m3-reproducible-quarto.html",
     "title": "Module 3: Reproducible report with Quarto in R",
     "section": "",
-    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Module 3: Reproducible report with Quarto in R"
+    ]
   },
   {
     "objectID": "m5-exploratory-data-analysis.html",
