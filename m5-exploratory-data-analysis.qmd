@@ -8,10 +8,10 @@ title: "Module 5: exploratory data analysis"
 4.  Comparisons
 5.  Trends
 
-<a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-2" target="_blank" class="btn-slides">View slides in new window</a>
+<a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-04-eda" target="_blank" class="btn-slides">View slides in new window</a>
 
 ::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
-<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-2" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
+<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-04-eda" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
 
 </iframe>
 :::
