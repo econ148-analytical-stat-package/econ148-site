@@ -44,7 +44,8 @@ website:
         contents:
           - href: "term-01-midterm-project.qmd"
             text: "Midterm project: Earthquake and tsunami analysis"
-          
+          - href: "term-02-final-project.qmd"
+            text: "Final project: HR Analytics Employee Attrition and Performance"
 
 format:
   html:
