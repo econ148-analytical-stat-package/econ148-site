@@ -22,30 +22,18 @@ website:
         contents:
           - href: "m1-intro-r.qmd"
             text: "Module 1: Introduction to R programming"
+          - href: ""
+            text: "Module 2: Data management and transformation with Tidyverse"
           - href: "m2-intro-data-viz-ggplot.qmd"
-            text: "Module 2: Intro to data visualization using ggplot2"
+            text: "Module 3: Intro to data visualization using ggplot2"
           - href: "m3-reproducible-quarto.qmd"
-            text: "Module 3: Reproducible report with Quarto in R"
+            text: "Module 4: Data analysis report with Quarto"
           - href: "m5-exploratory-data-analysis.qmd"
-            text: "Module 4: exploratory data analysis"
+            text: "Module 5: Testing hypotheses"
           - href: ""
-            text: "Module 5: test on means"
+            text: "Module 6: Regression analysis"
           - href: ""
-            text: "Module 6: correlation and regression analysis"
-          - href: ""
-            text: "Module 7: limited-dependent variable models"
-          - href: ""
-            text: "Module 8: Exploratory factor analysis (EFA)"
-      - section: "Assignment"
-        contents:
-          - href: "01-assignment-1-e-commerce.qmd"
-            text: "Module 1 assignment"
-      - section: "Midterm & Final projects"
-        contents:
-          - href: "term-01-midterm-project.qmd"
-            text: "Midterm project: Earthquake and tsunami analysis"
-          - href: "term-02-final-project.qmd"
-            text: "Final project: HR Analytics Employee Attrition and Performance"
+            text: "Module 7: Modelling probabilities"
 
 format:
   html:
