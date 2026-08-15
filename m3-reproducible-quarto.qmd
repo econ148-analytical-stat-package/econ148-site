@@ -1,5 +1,5 @@
 ---
-title: "Module 3: Reproducible report with Quarto in R"
+title: "Module 4: Data analysis with Quarto"
 ---
 
 1.  Introduction to Quarto
