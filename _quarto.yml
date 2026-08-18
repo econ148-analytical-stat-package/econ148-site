@@ -34,6 +34,11 @@ website:
             text: "Module 6: Regression analysis"
           - href: ""
             text: "Module 7: Modelling probabilities"
+      
+      - section: "**Laboratory exercises**"
+        contents:
+          - href: "module-1-exercise-1.qmd"
+            text: "Exercise 1"
 
 format:
   html:

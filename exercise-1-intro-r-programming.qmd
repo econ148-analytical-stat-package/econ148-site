@@ -1,0 +1,106 @@
+---
+title: ""
+---
+
+![](plot/econ148-exer1-header.png)
+
+# Objective
+
+To familiarize students with the R programming environment, basic commands, and fundamental concepts such as packages, help pages, R objects, and notation.
+
+# Submission
+
+1.  Download the [Module 1 exercise R scipt](https://drive.google.com/drive/folders/1tyuMj2Ljxt19SspHo6oxgU2hGvkl75IC?usp=sharing)
+
+2.  Save your completed R script as: `module1_lab_lastname_firstname.R`
+
+    - Ensure your Answer Sheet (reflection and written responses) is filled out completely.
+
+3.  Check your work
+
+    - Verify that all code runs without errors.
+    - Make sure your name, student ID, and course/year are included in the answer sheet.
+
+4.  Upload to Google Form
+
+    - Upload your R script `module1_lab_lastname_firstname.R` using this [Submission link](https://forms.gle/CHzvjVa8WpUR4Mf97).
+    - Fill in the required student information fields (Name, Student ID, Course/Year).
+    - Submit before the deadline
+
+------------------------------------------------------------------------
+## Exercise 1: Intro to R programming
+
+### A. Setting up R and RStudio
+
+1.  **Install R and RStudio**
+    - Download and install R from [CRAN](https://cran.r-project.org).\
+    - Download and install RStudio Desktop.
+2.  **Check version**
+
+```{r}
+#| eval: false
+version
+```
+
+### B. Packages and Help Pages
+
+1.  **Install and load a package.**
+
+```{r}
+#| eval: false
+install.packages("tidyverse")
+library(tidyverse)
+```
+
+- Verify that the package loaded successfully.
+- Explore help pages
+- Use the help function to learn about mean():
+
+```{r}
+#| eval: false
+
+?mean
+help(mean)
+```
+
+- Summarize what the function does and the arguments it accepts.
+
+### C. R Objects
+
+1. **Create a numeric vector**
+
+```{r}
+#| eval: false
+x <- c(2, 4, 6, 8, 10)
+```
+
+2. **Create a character vector:**
+
+```{r}
+#| eval: false
+names <- c("Anna", "Ben", "Carla")
+```
+
+3. **Create a data frame:**
+
+```{r}
+#| eval: false
+df <- data.frame(ID = 1:3, Name = names, Score = c(85, 90, 88))
+```
+
+4. **Explore the objects**
+
+    - Use functions like class(), length(), str(), and summary() to explore the objects.
+
+### D. R Notation
+
+1.  **Indexing and subsetting**
+
+    - Extract the 3rd element of vector x.
+    - Extract the Score column from df.
+    - Extract the second row of df.
+
+2.  **Applying functions**
+
+    - Compute the mean of vector x.
+    - Compute the mean of the Score column in df.

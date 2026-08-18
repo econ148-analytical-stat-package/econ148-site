@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Econ 148: Analytical and statistical packages for economics 1 – Econ 148</title>
+<title>exercise-1-intro-r-programming – Econ 148</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -35,7 +70,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./m1-intro-r.html" rel="next">
 <link href="./plot/econ148-hex-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -253,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -284,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -356,192 +390,138 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course description</a></li>
-  <li><a href="#course-objectives" id="toc-course-objectives" class="nav-link" data-scroll-target="#course-objectives">Course objectives</a></li>
-  <li><a href="#course-outline" id="toc-course-outline" class="nav-link" data-scroll-target="#course-outline">Course outline</a></li>
+  <li><a href="#objective" id="toc-objective" class="nav-link active" data-scroll-target="#objective">Objective</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a>
+  <ul class="collapse">
+  <li><a href="#exercise-1-intro-to-r-programming" id="toc-exercise-1-intro-to-r-programming" class="nav-link" data-scroll-target="#exercise-1-intro-to-r-programming">Exercise 1: Intro to R programming</a>
+  <ul class="collapse">
+  <li><a href="#a.-setting-up-r-and-rstudio" id="toc-a.-setting-up-r-and-rstudio" class="nav-link" data-scroll-target="#a.-setting-up-r-and-rstudio">A. Setting up R and RStudio</a></li>
+  <li><a href="#b.-packages-and-help-pages" id="toc-b.-packages-and-help-pages" class="nav-link" data-scroll-target="#b.-packages-and-help-pages">B. Packages and Help Pages</a></li>
+  <li><a href="#c.-r-objects" id="toc-c.-r-objects" class="nav-link" data-scroll-target="#c.-r-objects">C. R Objects</a></li>
+  <li><a href="#d.-r-notation" id="toc-d.-r-notation" class="nav-link" data-scroll-target="#d.-r-notation">D. R Notation</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Econ 148: Analytical and statistical packages for economics 1</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<p><br></p>
-<p><strong>Class schedule:</strong> Tuesday | 15:00 - 17:00 <br> <strong>Laboratory schedules:</strong> Wednesday | 13:00 - 16:00 &amp; 16:00 - 19:00 <br> <strong>Instructor:</strong> Christopher Llones <br> <strong>e-mail:</strong> christopher.llones@vsu.edu.ph <br> <strong>Pre-requisites:</strong> Econ 115 - Econometrics <br> <strong>Course credits:</strong> 3 units <br> <strong>Number of hours:</strong> 2 hrs lectures and 3 hrs laboratory per week <br></p>
-<hr>
-<section id="course-description" class="level3">
-<h3 class="anchored" data-anchor-id="course-description">Course description</h3>
-<p>This course introduces undergraduate students to the use of analytical and statistical packages in economics, with a focus on R programming. It provides hands‑on training in data management, visualization, and basic econometric analysis. Students will learn how to design surveys, handle datasets, test hypotheses, and build regression models, while producing clear and reproducible reports for academic and applied economic contexts.</p>
+<p><img src="plot/econ148-exer1-header.png" class="img-fluid"></p>
+<section id="objective" class="level1">
+<h1>Objective</h1>
+<p>To familiarize students with the R programming environment, basic commands, and fundamental concepts such as packages, help pages, R objects, and notation.</p>
 </section>
-<section id="course-objectives" class="level3">
-<h3 class="anchored" data-anchor-id="course-objectives">Course objectives</h3>
-<p>By the end of the course, students will be able to:</p>
+<section id="submission" class="level1">
+<h1>Submission</h1>
 <ol type="1">
-<li>Install and use R and RStudio for economic data analysis.</li>
-<li>Design and manage survey data, including creating questionnaires and codebooks.</li>
-<li>Clean, transform, and organize datasets using Tidyverse functions.</li>
-<li>Create effective visualizations with ggplot2 to present economic data clearly.</li>
-<li>Apply hypothesis testing to evaluate economic questions using parametric and non‑parametric methods.</li>
-<li>Perform correlation and regression analysis to explore relationships among economic variables.</li>
-<li>Model binary outcomes using probability models such as Logit and Probit.</li>
-<li>Prepare reproducible reports with Quarto, integrating code, results, and interpretation for academic assignments.</li>
+<li><p>Download the <a href="https://drive.google.com/drive/folders/1tyuMj2Ljxt19SspHo6oxgU2hGvkl75IC?usp=sharing">Module 1 exercise R scipt</a></p></li>
+<li><p>Save your completed R script as: <code>module1_lab_lastname_firstname.R</code></p>
+<ul>
+<li>Ensure your Answer Sheet (reflection and written responses) is filled out completely.</li>
+</ul></li>
+<li><p>Check your work</p>
+<ul>
+<li>Verify that all code runs without errors.</li>
+<li>Make sure your name, student ID, and course/year are included in the answer sheet.</li>
+</ul></li>
+<li><p>Upload to Google Form</p>
+<ul>
+<li>Upload your R script <code>module1_lab_lastname_firstname.R</code> using this <a href="https://forms.gle/CHzvjVa8WpUR4Mf97">Submission link</a>.</li>
+<li>Fill in the required student information fields (Name, Student ID, Course/Year).</li>
+<li>Submit before the deadline</li>
+</ul></li>
 </ol>
+<hr>
+<section id="exercise-1-intro-to-r-programming" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-1-intro-to-r-programming">Exercise 1: Intro to R programming</h2>
+<section id="a.-setting-up-r-and-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="a.-setting-up-r-and-rstudio">A. Setting up R and RStudio</h3>
+<ol type="1">
+<li><strong>Install R and RStudio</strong>
+<ul>
+<li>Download and install R from <a href="https://cran.r-project.org">CRAN</a>.<br>
+</li>
+<li>Download and install RStudio Desktop.</li>
+</ul></li>
+<li><strong>Check version</strong></li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>version</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
 </section>
-<section id="course-outline" class="level3">
-<h3 class="anchored" data-anchor-id="course-outline">Course outline</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 26%">
-<col style="width: 25%">
-<col style="width: 48%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topics</th>
-<th>Lessons</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Module 1: Introduction to R Programming</td>
-<td><ol type="1">
-<li>Installing R and RStudio</li>
-<li>R Basics</li>
-<li>Working with R scripts</li>
-<li>Importing data</li>
-<li>Basic data wrangling</li>
-</ol></td>
-<td><ol type="1">
-<li>Learn to install and configure R and RStudio.</li>
-<li>Understand and apply basic R syntax including data types, vectors, and data frames.</li>
-<li>Develop proficiency in writing, saving, and executing R scripts.</li>
-<li>Import dataset and prepare them for analysis.</li>
-<li>Clean and transform data .</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Module 2: Data management and transformation with Tiydverse</td>
-<td><ol type="1">
-<li>Introduction to Tidyverse</li>
-<li>dplyr basics</li>
-<li>Data reshaping</li>
-<li>Handling missing data</li>
-<li>Case studies</li>
-</ol></td>
-<td><ol type="1">
-<li>Understand the philosophy of Tidyverse and its role in data science workflows.</li>
-<li>Learn functions for filtering, selecting, mutating, summarizing, and arranging data.</li>
-<li>Apply pivoting and joining techniques to restructure datasets.</li>
-<li>Identify, manage, and impute missing values in datasets.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Module 3: Introduction to data visualization using ggplot2</td>
-<td><ol type="1">
-<li>Understanding grammar of graphics</li>
-<li>Dataset and mapping</li>
-<li>Geometries</li>
-<li>Statistical transformation and plotting distribution</li>
-<li>Position adjustment and scales</li>
-</ol></td>
-<td><ol type="1">
-<li>Understand the grammar of graphics and its role in structuring visualizations.</li>
-<li>Create and customize basic plots including histograms, bar charts, boxplots, and scatterplot.</li>
-<li>Map variables to visual aesthetics such as color, shape, and size to enhance interpretability.</li>
-<li>Apply faceting techniques to produce multi-panel plots for comparative analysis.</li>
-<li>Modify plot themes and coordinate systems to improve clarity and accessibility.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Module 4: Data analysis report with Quarto in R</td>
-<td><ol type="1">
-<li>Introduction to Quarto</li>
-<li>Creating Quarto document</li>
-<li>Embedding R code</li>
-<li>Formatting Outputs</li>
-<li>Exporting reports</li>
-</ol></td>
-<td><ol type="1">
-<li>Learn to create dynamic, reproducible documents using Quarto and markdown syntax.</li>
-<li>Embed R code and inline calculations within narrative text to integrate analysis and interpretation.</li>
-<li>Format outputs such as tables and plots for professional presentation.</li>
-<li>Render reports to multiple formats including HTML, PDF, and Word for diverse audiences.</li>
-<li>Develop the ability to produce transparent, replicable research outputs for academic and policy contexts.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Module 5: Testing hypothesis</td>
-<td><ol type="1">
-<li>Logic of testing</li>
-<li>Decision-making</li>
-<li>Errors</li>
-<li>Multiple testing</li>
-</ol></td>
-<td><ol type="1">
-<li><p>Use data evidence to decide if a statement about a population pattern is likely true or false.</p></li>
-<li><p>Reject or maintain a null hypothesis (H0​ ) based on p-values or critical values.</p></li>
-<li><p>Distinguish between false positives (rejecting true H0​) and false negatives (failing to reject false H0​)</p></li>
-<li><p>Address the increased risk of false positives and “p-hacking” when testing many hypotheses simultaneously</p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Module 6: Regression analysis</td>
-<td><ol type="1">
-<li>Simple regression</li>
-<li>Predicted values</li>
-<li>Inference for coefficients</li>
-<li>Multiple regression</li>
-<li>Categorical predictors</li>
-<li>Interactions</li>
-</ol></td>
-<td><ol type="1">
-<li>Model the conditional mean (E[y∣x]) using a best-fitting OLS line to find patterns of association.</li>
-<li>Calculate expected values (y^​) and use residuals to identify observations that deviate from the pattern.</li>
-<li>Use standard errors and confidence intervals to generalize sample slope estimates to the population</li>
-<li>Compare average y across x values while controlling for other variables (covariates) to reduce bias.</li>
-<li>Include qualitative information in models by transforming categories into binary dummy variables.</li>
-<li>Model how the relationship between y and x varies across different groups or values of a third variable</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Module 7: Modelling probabilities</td>
-<td><ol type="1">
-<li>Linear Probability Model (LPM)</li>
-<li>Nonlinear models</li>
-<li>Interpretations</li>
-<li>Evaluation</li>
-</ol></td>
-<td><ol type="1">
-<li>Apply standard linear regression to binary outcomes to estimate conditional probabilities.</li>
-<li>Use Logit and Probit link functions to ensure predicted probabilities remain strictly between zero and one</li>
-<li>Transform complex coefficients into “marginal differences” to show average changes in probability.</li>
-<li>Assess model performance using diagnostic tools like the Brier score and calibration curves</li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+<section id="b.-packages-and-help-pages" class="level3">
+<h3 class="anchored" data-anchor-id="b.-packages-and-help-pages">B. Packages and Help Pages</h3>
+<ol type="1">
+<li><p><strong>Install and load a package.</strong></p></li>
+<li><p><strong>Install the tidyverse package:</strong></p></li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tidyverse"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul>
+<li>Verify that the package loaded successfully.</li>
+<li>Explore help pages</li>
+<li>Use the help function to learn about mean():</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>?mean</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">help</span>(mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul>
+<li>Summarize what the function does and the arguments it accepts.</li>
+</ul>
+</section>
+<section id="c.-r-objects" class="level3">
+<h3 class="anchored" data-anchor-id="c.-r-objects">C. R Objects</h3>
+<ol type="1">
+<li><p><strong>Create basic objects</strong></p></li>
+<li><p><strong>Create a numeric vector</strong></p></li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">8</span>, <span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul>
+<li>Create a character vector:</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>names <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Anna"</span>, <span class="st">"Ben"</span>, <span class="st">"Carla"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul>
+<li>Create a data frame:</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">ID =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">Name =</span> names, <span class="at">Score =</span> <span class="fu">c</span>(<span class="dv">85</span>, <span class="dv">90</span>, <span class="dv">88</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul>
+<li>Inspect objects</li>
+<li>Use functions like class(), length(), str(), and summary() to explore the objects.</li>
+</ul>
+</section>
+<section id="d.-r-notation" class="level3">
+<h3 class="anchored" data-anchor-id="d.-r-notation">D. R Notation</h3>
+<ol type="1">
+<li><p><strong>Indexing and subsetting</strong></p>
+<ul>
+<li>Extract the 3rd element of vector x.</li>
+<li>Extract the Score column from df.</li>
+<li>Extract the second row of df.</li>
+</ul></li>
+<li><p><strong>Applying functions</strong></p>
+<ul>
+<li>Compute the mean of vector x.</li>
+<li>Compute the mean of the Score column in df.</li>
+</ul></li>
+</ol>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -958,15 +938,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./m1-intro-r.html" class="pagination-link" aria-label="Module 1: Introduction to R programming">
-        <span class="nav-page-text">Module 1: Introduction to R programming</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
