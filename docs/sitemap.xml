@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/term-02-final-project.html</loc>
-    <lastmod>2026-08-18T06:54:35.681Z</lastmod>
+    <lastmod>2026-09-02T05:19:19.686Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m9-efa.html</loc>
-    <lastmod>2025-11-19T02:50:18.181Z</lastmod>
+    <lastmod>2026-09-02T05:19:19.658Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m7-corr-reg-analysis.html</loc>
-    <lastmod>2025-11-19T02:50:18.180Z</lastmod>
+    <lastmod>2026-09-02T05:19:19.658Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m5-exploratory-data-analysis.html</loc>
-    <lastmod>2025-11-26T01:05:32.519Z</lastmod>
+    <lastmod>2026-09-02T05:19:19.652Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m3-reproducible-quarto.html</loc>
-    <lastmod>2026-08-18T06:54:35.679Z</lastmod>
+    <lastmod>2026-09-02T05:19:19.652Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m2-data-mgmt.html</loc>
-    <lastmod>2026-08-18T06:54:35.677Z</lastmod>
+    <lastmod>2026-09-02T05:21:54.346Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/index.html</loc>
-    <lastmod>2026-08-18T06:58:53.049Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/01-assignment-1-e-commerce.html</loc>
-    <lastmod>2025-11-19T02:50:18.114Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/00-m0-midterm-project.html</loc>
-    <lastmod>2025-11-19T02:50:18.112Z</lastmod>
+    <lastmod>2026-09-02T05:19:19.651Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/01-course-outline.html</loc>
-    <lastmod>2025-11-19T02:50:18.114Z</lastmod>
+    <lastmod>2026-09-02T05:19:19.454Z</lastmod>
   </url>
   <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m1-intro-r.html</loc>
-    <lastmod>2026-08-18T07:02:09.623Z</lastmod>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/00-m0-midterm-project.html</loc>
+    <lastmod>2026-09-02T05:19:19.452Z</lastmod>
   </url>
   <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m2-intro-data-viz-ggplot.html</loc>
-    <lastmod>2026-08-18T06:54:35.678Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m4-survey-research-design.html</loc>
-    <lastmod>2025-11-26T00:53:20.061Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m6-test-means.html</loc>
-    <lastmod>2025-11-19T02:50:18.180Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m8-limdep-model.html</loc>
-    <lastmod>2025-11-19T02:50:18.181Z</lastmod>
-  </url>
-  <url>
-    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/term-01-midterm-project.html</loc>
-    <lastmod>2025-11-19T02:50:18.195Z</lastmod>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/01-assignment-1-e-commerce.html</loc>
+    <lastmod>2026-09-02T05:19:19.454Z</lastmod>
   </url>
   <url>
     <loc>https://econ148-analytical-stat-package.github.io/econ148-site/exercise-1-intro-r-programming.html</loc>
-    <lastmod>2026-08-18T07:23:56.539Z</lastmod>
+    <lastmod>2026-09-02T05:19:19.648Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m1-intro-r.html</loc>
+    <lastmod>2026-09-02T05:19:19.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m2-intro-data-viz-ggplot.html</loc>
+    <lastmod>2026-09-02T05:19:19.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m4-survey-research-design.html</loc>
+    <lastmod>2026-09-02T05:19:19.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m6-test-means.html</loc>
+    <lastmod>2026-09-02T05:19:19.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/m8-limdep-model.html</loc>
+    <lastmod>2026-09-02T05:19:19.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ148-analytical-stat-package.github.io/econ148-site/term-01-midterm-project.html</loc>
+    <lastmod>2026-09-02T05:19:19.686Z</lastmod>
   </url>
 </urlset>
