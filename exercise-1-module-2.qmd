@@ -1,0 +1,65 @@
+---
+title: ""
+---
+
+![](plot/econ148-exer1-header.png)
+
+**Course Title**: Econ 1048 Analytical and Statistical Packages for Economics 1 <br> **Instructor**: Christopher Llones <br> **Exercise**: Netflix Dataset Analysis in R <br> **Due Date**: 23 September 2026
+
+## Objective
+
+This exercise will assess your ability to apply R programming skills specifically using the `dplyr` package and the pipe operator (`%>%`) to explore and analyze a real-world dataset. You will work with the Netflix Movies & TV Shows dataset to answer questions using code.
+
+## Instructions
+
+- Use R and the `dplyr` package to answer each question.
+
+- Submit your `R script file (.R)` with your code and outputs.
+
+- Use the pipe operator (`%>%`) for all data manipulations.
+
+- You may use additional packages like `tidyr` or `stringr` if needed.
+
+- Ensure your code is clean, commented, and reproducible.
+
+::: callout-tip
+## Dataset and files
+
+1.  Access the dataset and R script template from the [econ148-exercise-1](https://drive.google.com/drive/folders/1peazJrbYgMPy5wNCZqIq1MkAxoRUavD8?usp=sharing) folder.
+
+2.  Submit your completed R script file (.R) by the due date and upload using this link: [Submission Link](https://forms.gle/KczHwPNFRM8VVGTg7).
+:::
+
+## Questions
+
+**Part 1: Data exploration**
+
+1.  How many rows and columns are in the dataset?
+
+2.  List all unique types of content (e.g., Movie, TV Show).
+
+3.  How many titles were released in 2020?
+
+**Part 2: filtering and summarising**
+
+4.  Filter the dataset to show only TV Shows released in India. How many are there?
+
+5.  Find the top 5 most common ratings.
+
+6.  Which year had the most titles added to Netflix?
+
+**Part 3: grouping and aggregation**
+
+7.  Group the data by `type` and count how many entries each type has.
+
+8.  Group the data by `release_year` and summarize the number of titles released per year.
+
+9.  Which country has produced the most content on Netflix?
+
+**Advanced Filtering**
+
+10. Filter the dataset to show all Movies with a duration longer than 100 minutes.
+
+11. Find all titles directed by 'Steven Spielberg'.
+
+12. List all titles with the genre containing 'Documentary'.
