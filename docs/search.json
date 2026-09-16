@@ -151,7 +151,7 @@
     "text": "Course Title: Econ 1048 Analytical and Statistical Packages for Economics 1  Instructor: Christopher Llones  Exercise: Netflix Dataset Analysis in R  Due Date: 23 September 2026",
     "crumbs": [
       "**Laboratory exercises**",
-      " "
+      "Exercise 1\""
     ]
   },
   {
@@ -162,7 +162,7 @@
     "text": "Objective\nThis exercise will assess your ability to apply R programming skills specifically using the dplyr package and the pipe operator (%&gt;%) to explore and analyze a real-world dataset. You will work with the Netflix Movies & TV Shows dataset to answer questions using code.",
     "crumbs": [
       "**Laboratory exercises**",
-      " "
+      "Exercise 1\""
     ]
   },
   {
@@ -173,7 +173,7 @@
     "text": "Instructions\n\nUse R and the dplyr package to answer each question.\nSubmit your R script file (.R) with your code and outputs.\nUse the pipe operator (%&gt;%) for all data manipulations.\nYou may use additional packages like tidyr or stringr if needed.\nEnsure your code is clean, commented, and reproducible.\n\n\n\n\n\n\n\nTipDataset and files\n\n\n\n\nAccess the dataset and R script template from the econ148-exercise-1 folder.\nSubmit your completed R script file (.R) by the due date and upload using this link: Submission Link.",
     "crumbs": [
       "**Laboratory exercises**",
-      " "
+      "Exercise 1\""
     ]
   },
   {
@@ -184,7 +184,7 @@
     "text": "Questions\nPart 1: Data exploration\n\nHow many rows and columns are in the dataset?\nList all unique types of content (e.g., Movie, TV Show).\nHow many titles were released in 2020?\n\nPart 2: filtering and summarising\n\nFilter the dataset to show only TV Shows released in India. How many are there?\nFind the top 5 most common ratings.\nWhich year had the most titles added to Netflix?\n\nPart 3: grouping and aggregation\n\nGroup the data by type and count how many entries each type has.\nGroup the data by release_year and summarize the number of titles released per year.\nWhich country has produced the most content on Netflix?\n\nAdvanced Filtering\n\nFilter the dataset to show all Movies with a duration longer than 100 minutes.\nFind all titles directed by ‘Steven Spielberg’.\nList all titles with the genre containing ‘Documentary’.",
     "crumbs": [
       "**Laboratory exercises**",
-      " "
+      "Exercise 1\""
     ]
   },
   {
