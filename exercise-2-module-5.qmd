@@ -1,0 +1,113 @@
+---
+title: ""
+---
+
+![](plot/econ148-exercise.png)
+
+### Set-up
+
+-   Download the data foloder from[exer-hypothesis-testing](https://drive.google.com/drive/folders/1uWAB9asNQyYJsOIkA8ZRo252HmKKBOj0?usp=sharing). This folder contains the **R script template** and datasets to be used for this workshop.
+
+### 1. Independent Samples t-test
+
+
+::: {.callout-tip}
+## Sample problem
+A researcher wants to investigate whether first-year male and female students at a university differ in their memory abilities. Ten male students and 10 female students were randomly selected from the first-year enrolment roll to serve as subjects. All 20 subjects were read 30 unrelated words and were then asked to recall as many of the words as possible. The numbers of words correctly recalled by each subject were recorded.
+:::
+
+-   Use the `EX4.sav` dataset.
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+
+### 2. Mann-Whitney U-test
+
+::: {.callout-tip}
+## Sample problem
+
+Suppose that the following data have been collected representing monthly incomes for teachers employed in two different private schools (School A and School B). The researcher wishes to determine whether there is a substantial difference between these incomes.
+:::
+
+-   Use tghe `EX19b.sav` dataset.
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+
+### 3. Paired Samples t-test
+
+::: {.callout-tip}
+## Sample problem
+
+A researcher designed an experiment to test the effect of drug X on eating behavior. The amount of food eaten by a group of rats in a one-week period, prior to ingesting drug X, was recorded. The rats were then given drug X, and the amount of food eaten in a one-week period was again recorded. The following amounts of food in grams were eaten during the “before” and “after” conditions.
+
+:::
+
+-   Use the `EX5.sav` dataset.
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+
+### 4. Wilcoxon Signed-Rank Test
+
+:: {.callout-tip}
+## Sample problem
+
+Suppose a researcher is interested in whether a drug claimed by its manufacturer to improve problem-solving skills accomplished that goal. The researcher selects a sample of seven individuals and measured their problem-solving skills before and after they have taken that drug. The number of correct responses is recorded below.
+:::
+
+-   Use the `EX19d.sav` dataset.
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+
+### 5. One-way ANOVA
+
+:: {.callout-tip}
+## Sample problem
+
+A researcher is interested in finding out whether intensity of electric shock will affect the time required to solve a set of difficult problems. Eighteen subjects are randomly assigned to the three experimental conditions of “Low Shock,” “Medium Shock,” and “High Shock.” The total time (in minutes) required to solve all the problems is the measure recorded for each subject.
+:::
+
+-   Use the `EX6.sav` dataset.
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Perform a post-hoc test (Tukey HSD).\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+
+### 6. Kruskal-Wallis Test
+
+:: {.callout-tip}
+## Sample problem
+
+Suppose that an educational psychologist is interested in determining the effectiveness of three different methods of instruction in the basic principles of arithmetic. A total of 29 primary grade children was randomly assigned to the three “methods of instruction” conditions. The scores recorded below are the number of correct answers obtained following completion of their instruction.
+:::
+
+-   Use the `EX19c.sav` dataset.
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Perform post-hoc tests (Dunn’s test).\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
