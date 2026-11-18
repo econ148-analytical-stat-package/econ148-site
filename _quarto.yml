@@ -28,7 +28,7 @@ website:
             text: "Module 3: Intro to data visualization using ggplot2"
           - href: "m3-reproducible-quarto.qmd"
             text: "Module 4: Data analysis report with Quarto"
-          - href: "m6-test-means.qmd"
+          - href: ""
             text: "Module 5: Testing hypotheses"
           - href: ""
             text: "Module 6: Regression analysis"
